@@ -1,0 +1,99 @@
+<Activity mc:Ignorable="sap sap2010" x:Class="Sequence" mva:VisualBasic.Settings="{x:Null}" sap:VirtualizedContainerService.HintSize="1297,837" sap2010:WorkflowViewState.IdRef="Sequence_1" xmlns="http://schemas.microsoft.com/netfx/2009/xaml/activities" xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006" xmlns:mva="clr-namespace:Microsoft.VisualBasic.Activities;assembly=System.Activities" xmlns:sap="http://schemas.microsoft.com/netfx/2009/xaml/activities/presentation" xmlns:sap2010="http://schemas.microsoft.com/netfx/2010/xaml/activities/presentation" xmlns:scg="clr-namespace:System.Collections.Generic;assembly=mscorlib" xmlns:sco="clr-namespace:System.Collections.ObjectModel;assembly=mscorlib" xmlns:ui="http://schemas.uipath.com/workflow/activities" xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml">
+  <TextExpression.NamespacesForImplementation>
+    <sco:Collection x:TypeArguments="x:String">
+      <x:String>System.Activities</x:String>
+      <x:String>System.Activities.Statements</x:String>
+      <x:String>System.Activities.Expressions</x:String>
+      <x:String>System.Activities.Validation</x:String>
+      <x:String>System.Activities.XamlIntegration</x:String>
+      <x:String>Microsoft.VisualBasic</x:String>
+      <x:String>Microsoft.VisualBasic.Activities</x:String>
+      <x:String>System</x:String>
+      <x:String>System.Collections</x:String>
+      <x:String>System.Collections.Generic</x:String>
+      <x:String>System.Data</x:String>
+      <x:String>System.Diagnostics</x:String>
+      <x:String>System.Drawing</x:String>
+      <x:String>System.IO</x:String>
+      <x:String>System.Linq</x:String>
+      <x:String>System.Net.Mail</x:String>
+      <x:String>System.Xml</x:String>
+      <x:String>System.Xml.Linq</x:String>
+      <x:String>UiPath.Core</x:String>
+      <x:String>UiPath.Core.Activities</x:String>
+      <x:String>System.Windows.Markup</x:String>
+      <x:String>System.Collections.ObjectModel</x:String>
+      <x:String>UiPath.UIAutomationCore.Contracts</x:String>
+      <x:String>System.Activities.DynamicUpdate</x:String>
+    </sco:Collection>
+  </TextExpression.NamespacesForImplementation>
+  <TextExpression.ReferencesForImplementation>
+    <sco:Collection x:TypeArguments="AssemblyReference">
+      <AssemblyReference>System.Activities</AssemblyReference>
+      <AssemblyReference>Microsoft.VisualBasic</AssemblyReference>
+      <AssemblyReference>mscorlib</AssemblyReference>
+      <AssemblyReference>System.Data</AssemblyReference>
+      <AssemblyReference>System.Data.DataSetExtensions</AssemblyReference>
+      <AssemblyReference>System</AssemblyReference>
+      <AssemblyReference>System.Drawing</AssemblyReference>
+      <AssemblyReference>System.Core</AssemblyReference>
+      <AssemblyReference>System.Xml</AssemblyReference>
+      <AssemblyReference>System.Xml.Linq</AssemblyReference>
+      <AssemblyReference>PresentationFramework</AssemblyReference>
+      <AssemblyReference>WindowsBase</AssemblyReference>
+      <AssemblyReference>PresentationCore</AssemblyReference>
+      <AssemblyReference>System.Xaml</AssemblyReference>
+      <AssemblyReference>UiPath.System.Activities</AssemblyReference>
+      <AssemblyReference>UiPath.UiAutomation.Activities</AssemblyReference>
+      <AssemblyReference>UiPath.UIAutomationCore</AssemblyReference>
+    </sco:Collection>
+  </TextExpression.ReferencesForImplementation>
+  <Sequence DisplayName="Sequence" sap:VirtualizedContainerService.HintSize="518,576" sap2010:WorkflowViewState.IdRef="Sequence_1">
+    <sap:WorkflowViewStateService.ViewState>
+      <scg:Dictionary x:TypeArguments="x:String, x:Object">
+        <x:Boolean x:Key="IsExpanded">True</x:Boolean>
+      </scg:Dictionary>
+    </sap:WorkflowViewStateService.ViewState>
+    <Sequence DisplayName="Image" sap:VirtualizedContainerService.HintSize="476,484" sap2010:WorkflowViewState.IdRef="Sequence_3">
+      <sap:WorkflowViewStateService.ViewState>
+        <scg:Dictionary x:TypeArguments="x:String, x:Object">
+          <x:Boolean x:Key="IsExpanded">True</x:Boolean>
+        </scg:Dictionary>
+      </sap:WorkflowViewStateService.ViewState>
+      <ui:WindowScope ApplicationWindow="{x:Null}" SearchScope="{x:Null}" TimeoutMS="{x:Null}" Window="{x:Null}" DisplayName="Attach Window 'CUsersADM Notepad'" sap:VirtualizedContainerService.HintSize="434,392" sap2010:WorkflowViewState.IdRef="WindowScope_1" InformativeScreenshot="9f6f78cfc0be1e5cf6b90b95f8d22acc" Selector="&lt;wnd app='notepad++.exe' cls='Notepad++' title='*C:\Users\ADMIN\Desktop\Resume Data Copy.txt - Notepad++' /&gt;">
+        <ui:WindowScope.Body>
+          <ActivityAction x:TypeArguments="x:Object">
+            <ActivityAction.Argument>
+              <DelegateInArgument x:TypeArguments="x:Object" Name="ContextTarget" />
+            </ActivityAction.Argument>
+            <Sequence DisplayName="Do" sap:VirtualizedContainerService.HintSize="376,246" sap2010:WorkflowViewState.IdRef="Sequence_2">
+              <sap:WorkflowViewStateService.ViewState>
+                <scg:Dictionary x:TypeArguments="x:String, x:Object">
+                  <x:Boolean x:Key="IsExpanded">True</x:Boolean>
+                </scg:Dictionary>
+              </sap:WorkflowViewStateService.ViewState>
+              <ui:ClickImage ContinueOnError="{x:Null}" DelayBefore="{x:Null}" DelayMS="{x:Null}" ClickType="CLICK_SINGLE" DisplayName="Click Image 'client ****************...'" sap:VirtualizedContainerService.HintSize="334,154" sap2010:WorkflowViewState.IdRef="ClickImage_1" KeyModifiers="None" MouseButton="BTN_LEFT" SendWindowMessages="False">
+                <ui:ClickImage.CursorPosition>
+                  <ui:CursorPosition OffsetX="144" OffsetY="9" Position="TopRight" />
+                </ui:ClickImage.CursorPosition>
+                <ui:ClickImage.Image>
+                  <ui:ImageTarget Image="{x:Null}" Accuracy="0.8" Profile="Basic" TargetImageBase64="iVBORw0KGgoAAAANSUhEUgAAAIAAAAAeCAYAAADkUhb4AAAAAXNSR0IArs4c6QAAAARnQU1BAACxjwv8YQUAAAAJcEhZcwAADsMAAA7DAcdvqGQAAAPsSURBVGhD7VoLkqsgEPRcHIjzeBov42F408MnAw4IicnbRLqK2igw32Z0wcVN3BqTADfHJMDNMQnwDDbrlsW6LVx+M76fAPvqzLJQQtA+lJRJgGuwr1YkzzhL14t9Nqybsz+SlCHQArAmxnBxxq5uD109+H8EoFVkZLJ3SiAcmQToB2JoyOeU8d1tqxmqTgcCbFiViVGGk5Tkc+mj+6R0tVAUWTce9h2GGmKrpCvkZ7ICKYIeXyVq/G4R4EROr18njxv2CfOibDGeRQk93h6yY3vYNhrH1RinhQN2wIZTewgZATZy3j7oxNjBMmkYCxEBpAyu5MCg7Qx+BKTEQKYgG2G1kt0esEcnQZ0AXXKG/KrrisGX2KyQE/XAoJCQ+HuogmEuLSAV6AsKz+wRBAAT9edHxjRFcebgs6CAQ06qACE4nhxFUx2vJKVXzpBfLxIg6ZFy6jJVKPYmoNIEhX+WAGr5krLDb80eHQ0C9MgZ8usPEIA8slRJDjEkQF+0YYAA6Oh8BHQFCg5hpelGoryW7wClsbAHuuV02DNUAQhdci4iAE3yfvEFXsoofhSHJGeIAO0YQtfhJRDvMEk/4cQekl04HQb4MlkEDsJiXxCKIMV7GdPC2JJ9EVwBMl36S1BuD8YI5whMJNGfWtOvQk6nX326/LtD7INPa5BlyGc5h9IREozEK8k+iSHACzTKxNjDv4ENe0ju4b+Aq+ADWFklE13oiWFJAN/Ey+wJ3kYAsK7F3IlzfCKGbyPAxHdgEuDmmAS4OSYBbo5JgJtjEuDmmAS4OSYBfglxR1PZUa1hGdpokFumomVbuJUx3Irt2eYXQdgzl3OzNrbDWG7hDsTn+4D4jxAg/O1HeWgSzs0zIikHK4d72MKUhpZfBGG8/J3maocmffDnD4ptv4SPEwAolYox6YSvmIf7fCAiC5CUczUBhAz1KBpHMzhJS5WCKhJOEbOB7THsE91Pc6AzjM3DE2WQH5H4uM5O9sR9btr+Pi0+aQ/myyragQsqAAwl46RO4ThaHsQHml8EQcaFBMiOdrVVgnsZIX2yM9s7xpRH2kCmOwF+IGlExuIIHjj/igmVt5j7xHeVzxFAJBeJOzggEqYFRAVFlU+/NOMzAjwDBEYekyJ4JYmK1UR+qUerJ2PGCFAh8iHGosU4YIwWK43cDbxcAfAVKq4zlzsSdvpFkESHvBYeJTdvLWLuTEia1wimNuYyApQxLYEx7yFAKE1Y2ZoFSjI4wFJpJWEy6fxmDieFjmq1eIkAO61+LdB5VUCSTPZRKiW3sKdnDCcgyUW//09niAAEfrTQJCGZHwGpAlDPyCOAqyuTXvY59w9NLcLLiXphvAAAAABJRU5ErkJggg==" />
+                </ui:ClickImage.Image>
+                <ui:ClickImage.Target>
+                  <ui:Target ClippingRegion="{x:Null}" Element="{x:Null}" Id="e25efc03-890c-4292-86ab-fe1740bf4b51" Selector="&lt;wnd cls='Scintilla' title='Notepad++' /&gt;&lt;ctrl name='    ******************Resume data Copy************************  *' role='client' /&gt;">
+                    <ui:Target.TimeoutMS>
+                      <InArgument x:TypeArguments="x:Int32" />
+                    </ui:Target.TimeoutMS>
+                    <ui:Target.WaitForReady>
+                      <InArgument x:TypeArguments="ui:WaitForReady" />
+                    </ui:Target.WaitForReady>
+                  </ui:Target>
+                </ui:ClickImage.Target>
+              </ui:ClickImage>
+            </Sequence>
+          </ActivityAction>
+        </ui:WindowScope.Body>
+      </ui:WindowScope>
+    </Sequence>
+  </Sequence>
+</Activity>

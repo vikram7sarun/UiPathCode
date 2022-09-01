@@ -1,0 +1,14 @@
+﻿{
+  "Id": "SwpGJ2p4eUmS-e7h8kdWrA",
+  "Reference": "GUmZZMSLWkS42hcakH14xg/SwpGJ2p4eUmS-e7h8kdWrA",
+  "ParentRef": "GUmZZMSLWkS42hcakH14xg/NoaZR75we0KjJaKTMN9pyw",
+  "Name": "UserName",
+  "Description": "UserName TextField",
+  "Type": "Element",
+  "TaxonomyType": "Input",
+  "Created": "2022-06-16T17:10:13.538889Z",
+  "CreatedBy": [
+    "UiPath.Platform, Version=22.4.1.0, Culture=neutral, PublicKeyToken=null"
+  ],
+  "Updated": "2022-06-16T17:10:13.538889Z"
+}

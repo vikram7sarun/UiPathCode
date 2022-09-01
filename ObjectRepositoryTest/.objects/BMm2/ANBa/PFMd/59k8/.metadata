@@ -1,0 +1,13 @@
+﻿{
+  "Id": "59k8VW0V-keasIDlHRDA2g",
+  "Reference": "imzLihfhl0udv5hZMr0AdQ/59k8VW0V-keasIDlHRDA2g",
+  "ParentRef": "imzLihfhl0udv5hZMr0AdQ/PFMduecRVUeecsC_ISVCxg",
+  "Name": "Company Name",
+  "Type": "Element",
+  "TaxonomyType": "Input",
+  "Created": "2022-01-23T09:05:48.922174Z",
+  "CreatedBy": [
+    "UiPath.Platform, Version=21.10.0.0, Culture=neutral, PublicKeyToken=null"
+  ],
+  "Updated": "2022-01-23T09:05:48.922174Z"
+}

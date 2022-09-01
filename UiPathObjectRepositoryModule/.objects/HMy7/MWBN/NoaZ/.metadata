@@ -1,0 +1,13 @@
+﻿{
+  "Id": "NoaZR75we0KjJaKTMN9pyw",
+  "Reference": "bXsSH3kf-kSmpw1WpLbNlA/NoaZR75we0KjJaKTMN9pyw",
+  "ParentRef": "bXsSH3kf-kSmpw1WpLbNlA/MWBNtX4dHEqXhY9UPRkRlQ",
+  "Name": "Chrome: OrangeHRM",
+  "Description": "Chrome: OrangeHRM",
+  "Type": "Screen",
+  "Created": "2022-06-16T16:56:10.9630674Z",
+  "CreatedBy": [
+    "UiPath.Platform, Version=22.4.1.0, Culture=neutral, PublicKeyToken=null"
+  ],
+  "Updated": "2022-06-16T16:56:10.9630674Z"
+}

@@ -1,0 +1,5 @@
+1.Enable Adobe Setting
+2.Install PDF Package
+3.How to Extract bulk text.
+4.How to extract from image.
+5.Screen Scraping

@@ -1,0 +1,12 @@
+[2022-02-20 22:11:51.562168  c78][ERROR ] no such table: config:
+SELECT * FROM config WHERE server_id IS NULL
+[2022-02-20 22:11:51.564169  c78][ERROR ] no such table: config:
+SELECT COUNT(*) AS "count" FROM (SELECT * FROM config WHERE section = 'General' AND item = 'EnableRelay' AND server_id is NULL)
+[2022-02-20 22:11:51.564169  c78][ERROR ] no such table: config:
+INSERT INTO config(section, item, data) VALUES('General','EnableRelay','false')
+[2022-08-17 19:46:28.001907  35d0][ERROR ] no such column: unused1:
+SELECT unused1 FROM "user";
+[2022-08-17 19:46:28.009909  35d0][ERROR ] no such column: softkeyboardSet:
+SELECT softkeyboardSet FROM profile;
+[2022-08-17 19:46:28.285971  35d0][ERROR ] no such column: password:
+SELECT password FROM cert;

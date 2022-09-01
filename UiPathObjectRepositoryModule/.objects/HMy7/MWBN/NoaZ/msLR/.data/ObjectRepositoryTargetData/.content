@@ -1,0 +1,8 @@
+<?xml version="1.0" encoding="utf-16"?>
+<ObjectRepositoryTargetData ContentHash="a9064uyWL0WvEMKgzVj19A" xmlns="http://schemas.uipath.com/workflow/activities/uix" xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml">
+  <ObjectRepositoryTargetData.Data>
+    <TargetAnchorable x:Key="TargetAnchorable" BrowserURL="https://opensource-demo.orangehrmlive.com/" DesignTimeRectangle="922, 575, 232, 16" ElementType="InputBoxPassword" FriendlyName="'INPUT txtPassword'" FullSelectorArgument="&lt;webctrl tag='INPUT' type='password' /&gt;" FuzzySelectorArgument="&lt;webctrl tag='INPUT' type='password' class='' aaname='' /&gt;" Guid="31d174bd-58dd-484b-95f3-1be79efdf5f2" ImageBase64="iVBORw0KGgoAAAANSUhEUgAAAOwAAAAUCAYAAACOEtFgAAAAAXNSR0IArs4c6QAAAARnQU1BAACxjwv8YQUAAAAJcEhZcwAADsMAAA7DAcdvqGQAAAFVSURBVHhe7dsxboMwFIBhH5BLcRNOwgmyEZQsSGRBIgJCgMyvPCcltWS1XVo7yj98A/CQsvwCBduUZSl93wN4AWa328kwDABegA32crnIeL3KON1knm+yLAuAwLRFbVLb1EbVM9j1gu8mAGFpm06w4zjK7BkEEJ62qY0qG+x1feT6BgHEQRtVvwi2kiwxYoyRJKse53JJ12M9l+b3uSpL7LFJMqn+4T7gnTjBTtPkHbLy9B6UlUq+ntsiUza0Z1DKRvWn9335fcAb0EbVz8HyhAWCc4L9/pUYQGjOKzHBAnFzgtW/i31DAOLgfNbRD7K+IQBxcBZOECwQNydYXVTsGwIQh23x/+f2unn2DwIIS9vcttft93tp25bF/0CktM0t2MPhIKfTSfpBt9ixvQ6Ihd1etzapbXZdZ5mmaaQoCjmfzwAiZ/TbzvF4lLqu7asxgFi18gG7HAkOzHudDAAAAABJRU5ErkJggg==" ScopeSelectorArgument="&lt;html app='chrome.exe' title='OrangeHRM' /&gt;" SearchSteps="FuzzySelector, Image" Visibility="Interactive">
+      <imageRef attrName="InformativeScreenshot" originalValue="221cb97710f51bbc7250524f63c8bf41.png" xmlns="">0vVhX5Q-tMkG3h5MCkxub5g</imageRef>
+    </TargetAnchorable>
+  </ObjectRepositoryTargetData.Data>
+</ObjectRepositoryTargetData>

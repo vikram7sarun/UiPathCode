@@ -1,0 +1,14 @@
+﻿{
+  "Id": "msLRNVS87kyYv09j4EtfPA",
+  "Reference": "bXsSH3kf-kSmpw1WpLbNlA/msLRNVS87kyYv09j4EtfPA",
+  "ParentRef": "bXsSH3kf-kSmpw1WpLbNlA/NoaZR75we0KjJaKTMN9pyw",
+  "Name": "INPUT txtPassword",
+  "Description": "INPUT txtPassword",
+  "Type": "Element",
+  "TaxonomyType": "Password",
+  "Created": "2022-06-16T16:59:20.8305768Z",
+  "CreatedBy": [
+    "UiPath.Platform, Version=22.4.1.0, Culture=neutral, PublicKeyToken=null"
+  ],
+  "Updated": "2022-06-16T16:59:20.8305768Z"
+}

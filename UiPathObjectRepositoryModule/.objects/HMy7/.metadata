@@ -1,0 +1,11 @@
+﻿{
+  "Id": "HMy7VQlI50KZV1xjeo6Gkg",
+  "Reference": "bXsSH3kf-kSmpw1WpLbNlA/HMy7VQlI50KZV1xjeo6Gkg",
+  "Name": "Chrome: OrangeHRM app",
+  "Type": "App",
+  "Created": "2022-06-16T16:56:10.8559005Z",
+  "CreatedBy": [
+    "UiPath.Platform, Version=22.4.1.0, Culture=neutral, PublicKeyToken=null"
+  ],
+  "Updated": "2022-06-16T16:56:10.8559005Z"
+}

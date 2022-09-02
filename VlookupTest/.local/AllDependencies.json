@@ -7568,9 +7568,9 @@
     "restore": {
       "projectUniqueName": "VlookupTest",
       "projectName": "VlookupTest",
-      "projectPath": "C:\\Users\\ADMIN\\Documents\\UiPath\\VlookupTest\\.local",
+      "projectPath": "C:\\Users\\ADMIN\\Documents\\UiPath_AllCode\\UiPathCode\\VlookupTest\\.local",
       "packagesPath": "C:\\Users\\ADMIN\\.nuget\\packages\\",
-      "outputPath": "C:\\Users\\ADMIN\\Documents\\UiPath\\VlookupTest\\.local"
+      "outputPath": "C:\\Users\\ADMIN\\Documents\\UiPath_AllCode\\UiPathCode\\VlookupTest\\.local"
     },
     "frameworks": {
       "net461": {

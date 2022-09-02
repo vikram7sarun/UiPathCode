@@ -7631,9 +7631,9 @@
     "restore": {
       "projectUniqueName": "AcmeTest",
       "projectName": "AcmeTest",
-      "projectPath": "C:\\Users\\ADMIN\\Documents\\UiPath\\AcmeTest\\.local",
+      "projectPath": "C:\\Users\\ADMIN\\Documents\\UiPath_AllCode\\UiPathCode\\AcmeTest\\.local",
       "packagesPath": "C:\\Users\\ADMIN\\.nuget\\packages\\",
-      "outputPath": "C:\\Users\\ADMIN\\Documents\\UiPath\\AcmeTest\\.local"
+      "outputPath": "C:\\Users\\ADMIN\\Documents\\UiPath_AllCode\\UiPathCode\\AcmeTest\\.local"
     },
     "frameworks": {
       "net461": {

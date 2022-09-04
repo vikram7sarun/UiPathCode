@@ -8122,9 +8122,9 @@
     "restore": {
       "projectUniqueName": "PythonInvoke",
       "projectName": "PythonInvoke",
-      "projectPath": "C:\\Users\\ADMIN\\Documents\\UiPath\\PythonInvoke\\.local",
+      "projectPath": "C:\\Users\\ADMIN\\Documents\\UiPath_AllCode\\UiPathCode\\PythonInvoke\\.local",
       "packagesPath": "C:\\Users\\ADMIN\\.nuget\\packages\\",
-      "outputPath": "C:\\Users\\ADMIN\\Documents\\UiPath\\PythonInvoke\\.local"
+      "outputPath": "C:\\Users\\ADMIN\\Documents\\UiPath_AllCode\\UiPathCode\\PythonInvoke\\.local"
     },
     "frameworks": {
       "net461": {

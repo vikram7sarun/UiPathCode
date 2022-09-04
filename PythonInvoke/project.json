@@ -1,7 +1,7 @@
 {
   "name": "PythonInvoke",
   "description": "Blank Process",
-  "main": "Main.xaml",
+  "main": "InvokePythonScriptWithLibrary.xaml",
   "dependencies": {
     "UiPath.Excel.Activities": "[2.11.4]",
     "UiPath.Java.Activities": "[1.3.1]",
@@ -14,7 +14,7 @@
   "entitiesStores": [],
   "schemaVersion": "4.0",
   "studioVersion": "21.10.4.0",
-  "projectVersion": "1.0.1",
+  "projectVersion": "1.0.2",
   "runtimeOptions": {
     "autoDispose": false,
     "netFrameworkLazyLoading": false,
@@ -49,6 +49,12 @@
     {
       "filePath": "Main.xaml",
       "uniqueId": "4fe9df46-cc30-427c-97eb-82063c5b5c71",
+      "input": [],
+      "output": []
+    },
+    {
+      "filePath": "InvokePythonScriptWithLibrary.xaml",
+      "uniqueId": "82a768ac-1077-4045-9b88-16304fa63828",
       "input": [],
       "output": []
     }

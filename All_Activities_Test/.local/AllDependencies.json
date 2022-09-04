@@ -8141,9 +8141,9 @@
     "restore": {
       "projectUniqueName": "All_Activities_Test",
       "projectName": "All_Activities_Test",
-      "projectPath": "C:\\Users\\ADMIN\\Documents\\UiPath\\All_Activities_Test\\.local",
+      "projectPath": "C:\\Users\\ADMIN\\Documents\\UiPath_AllCode\\UiPathCode\\All_Activities_Test\\.local",
       "packagesPath": "C:\\Users\\ADMIN\\.nuget\\packages\\",
-      "outputPath": "C:\\Users\\ADMIN\\Documents\\UiPath\\All_Activities_Test\\.local"
+      "outputPath": "C:\\Users\\ADMIN\\Documents\\UiPath_AllCode\\UiPathCode\\All_Activities_Test\\.local"
     },
     "frameworks": {
       "net461": {

@@ -7568,9 +7568,9 @@
     "restore": {
       "projectUniqueName": "ObjectRepo.Descriptors",
       "projectName": "ObjectRepo.Descriptors",
-      "projectPath": "C:\\Users\\ADMIN\\Documents\\UiPath\\ObjectRepo.Descriptors\\.local",
+      "projectPath": "C:\\Users\\ADMIN\\Documents\\UiPath_AllCode\\UiPathCode\\ObjectRepo.Descriptors\\.local",
       "packagesPath": "C:\\Users\\ADMIN\\.nuget\\packages\\",
-      "outputPath": "C:\\Users\\ADMIN\\Documents\\UiPath\\ObjectRepo.Descriptors\\.local"
+      "outputPath": "C:\\Users\\ADMIN\\Documents\\UiPath_AllCode\\UiPathCode\\ObjectRepo.Descriptors\\.local"
     },
     "frameworks": {
       "net461": {

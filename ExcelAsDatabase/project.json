@@ -3,6 +3,7 @@
   "description": "ExcelAsDatabase",
   "main": "Main.xaml",
   "dependencies": {
+    "Microsoft.Activities.Extensions": "[2.0.6.9]",
     "UiPath.Database.Activities": "[1.7.0]",
     "UiPath.Excel.Activities": "[2.12.3]",
     "UiPath.Mail.Activities": "[1.15.2]",

@@ -7568,9 +7568,9 @@
     "restore": {
       "projectUniqueName": "ObjectRepositoryTest",
       "projectName": "ObjectRepositoryTest",
-      "projectPath": "C:\\Users\\ADMIN\\Documents\\UiPath\\ObjectRepositoryTest\\.local",
+      "projectPath": "C:\\Users\\ADMIN\\Documents\\UiPath_AllCode\\UiPathCode\\ObjectRepositoryTest\\.local",
       "packagesPath": "C:\\Users\\ADMIN\\.nuget\\packages\\",
-      "outputPath": "C:\\Users\\ADMIN\\Documents\\UiPath\\ObjectRepositoryTest\\.local"
+      "outputPath": "C:\\Users\\ADMIN\\Documents\\UiPath_AllCode\\UiPathCode\\ObjectRepositoryTest\\.local"
     },
     "frameworks": {
       "net461": {

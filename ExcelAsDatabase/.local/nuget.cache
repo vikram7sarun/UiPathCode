@@ -1,6 +1,6 @@
 {
   "version": 2,
-  "dgSpecHash": "xoGSoex3rv0WmSyQCBmwi5SwWsyq8aqicqqFN0ptxIvQhKo+ccbVClwBfA+nFdd88UQzmDlPW4EVsfAVAltF8g==",
+  "dgSpecHash": "ZbqopmZUXKZGOspEQrX5bUw3nyK5TafvW5/ty7A/FAtRGfPucslC8x9bwgiUM0zLBtVsVQayOD3okdRoUemyzw==",
   "success": true,
   "projectFilePath": "C:\\Users\\ADMIN\\Documents\\UiPath_AllCode\\UiPathCode\\ExcelAsDatabase\\.local\\",
   "expectedPackageFiles": [
@@ -17,6 +17,7 @@
     "C:\\Users\\ADMIN\\.nuget\\packages\\google.apis.peopleservice.v1\\1.55.0.2567\\google.apis.peopleservice.v1.1.55.0.2567.nupkg.sha512",
     "C:\\Users\\ADMIN\\.nuget\\packages\\htmlagilitypack\\1.11.38\\htmlagilitypack.1.11.38.nupkg.sha512",
     "C:\\Users\\ADMIN\\.nuget\\packages\\mailkit\\3.1.1\\mailkit.3.1.1.nupkg.sha512",
+    "C:\\Users\\ADMIN\\.nuget\\packages\\microsoft.activities.extensions\\2.0.6.9\\microsoft.activities.extensions.2.0.6.9.nupkg.sha512",
     "C:\\Users\\ADMIN\\.nuget\\packages\\microsoft.aspnet.signalr.client\\2.4.0\\microsoft.aspnet.signalr.client.2.4.0.nupkg.sha512",
     "C:\\Users\\ADMIN\\.nuget\\packages\\microsoft.aspnetcore.connections.abstractions\\3.1.6\\microsoft.aspnetcore.connections.abstractions.3.1.6.nupkg.sha512",
     "C:\\Users\\ADMIN\\.nuget\\packages\\microsoft.aspnetcore.http.connections.client\\3.1.6\\microsoft.aspnetcore.http.connections.client.3.1.6.nupkg.sha512",

@@ -1,0 +1,14 @@
+[ODBC]
+DRIVER=Microsoft Excel Driver (*.xls)
+UID=admin
+UserCommitSync=Yes
+Threads=3
+SafeTransactions=0
+ReadOnly=0
+PageTimeout=5
+MaxScanRows=8
+MaxBufferSize=2048
+FIL=excel 8.0
+DriverId=790
+DefaultDir=C:\Users\ADMIN\Documents\UiPath_AllCode\UiPathCode\ExcelAsDatabase
+DBQ=C:\Users\ADMIN\Documents\UiPath_AllCode\UiPathCode\ExcelAsDatabase\CarLoan1.xls

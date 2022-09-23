@@ -5874,9 +5874,9 @@
     "restore": {
       "projectUniqueName": "RoboticEnterpriseFramework_Without_Queue",
       "projectName": "RoboticEnterpriseFramework_Without_Queue",
-      "projectPath": "C:\\Users\\ADMIN\\Documents\\UiPath\\RoboticEnterpriseFramework_Without_Queue\\.local",
+      "projectPath": "C:\\Users\\ADMIN\\Documents\\UiPath_AllCode\\UiPathCode\\RoboticEnterpriseFramework_Without_Queue\\.local",
       "packagesPath": "C:\\Users\\ADMIN\\.nuget\\packages\\",
-      "outputPath": "C:\\Users\\ADMIN\\Documents\\UiPath\\RoboticEnterpriseFramework_Without_Queue\\.local"
+      "outputPath": "C:\\Users\\ADMIN\\Documents\\UiPath_AllCode\\UiPathCode\\RoboticEnterpriseFramework_Without_Queue\\.local"
     },
     "frameworks": {
       "net461": {

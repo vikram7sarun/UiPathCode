@@ -8810,9 +8810,9 @@
     "restore": {
       "projectUniqueName": "UseCase1",
       "projectName": "UseCase1",
-      "projectPath": "C:\\Users\\ADMIN\\Documents\\UiPath\\UseCase1\\.local",
+      "projectPath": "C:\\Users\\ADMIN\\Documents\\UiPath_AllCode\\UiPathCode\\UseCase1\\.local",
       "packagesPath": "C:\\Users\\ADMIN\\.nuget\\packages\\",
-      "outputPath": "C:\\Users\\ADMIN\\Documents\\UiPath\\UseCase1\\.local"
+      "outputPath": "C:\\Users\\ADMIN\\Documents\\UiPath_AllCode\\UiPathCode\\UseCase1\\.local"
     },
     "frameworks": {
       "net461": {

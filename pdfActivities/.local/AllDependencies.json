@@ -8347,9 +8347,9 @@
     "restore": {
       "projectUniqueName": "pdfActivities",
       "projectName": "pdfActivities",
-      "projectPath": "C:\\Users\\ADMIN\\Documents\\UiPath\\pdfActivities\\.local",
+      "projectPath": "C:\\Users\\ADMIN\\Documents\\UiPath_AllCode\\UiPathCode\\pdfActivities\\.local",
       "packagesPath": "C:\\Users\\ADMIN\\.nuget\\packages\\",
-      "outputPath": "C:\\Users\\ADMIN\\Documents\\UiPath\\pdfActivities\\.local"
+      "outputPath": "C:\\Users\\ADMIN\\Documents\\UiPath_AllCode\\UiPathCode\\pdfActivities\\.local"
     },
     "frameworks": {
       "net461": {

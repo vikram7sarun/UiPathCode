@@ -8416,9 +8416,9 @@
     "restore": {
       "projectUniqueName": "AssetCredentialDecryption",
       "projectName": "AssetCredentialDecryption",
-      "projectPath": "C:\\Users\\ADMIN\\Documents\\Uipath_All_Code\\AssetCredentialDecryption\\.local",
+      "projectPath": "C:\\Users\\ADMIN\\Documents\\UiPath_AllCode\\UiPathCode\\AssetCredentialDecryption\\.local",
       "packagesPath": "C:\\Users\\ADMIN\\.nuget\\packages\\",
-      "outputPath": "C:\\Users\\ADMIN\\Documents\\Uipath_All_Code\\AssetCredentialDecryption\\.local"
+      "outputPath": "C:\\Users\\ADMIN\\Documents\\UiPath_AllCode\\UiPathCode\\AssetCredentialDecryption\\.local"
     },
     "frameworks": {
       "net461": {

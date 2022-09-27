@@ -8416,9 +8416,9 @@
     "restore": {
       "projectUniqueName": "OCR_End_to_End",
       "projectName": "OCR_End_to_End",
-      "projectPath": "C:\\Users\\ADMIN\\Documents\\UiPath\\OCR_End_to_End\\.local",
+      "projectPath": "C:\\Users\\ADMIN\\Documents\\UiPath_AllCode\\UiPathCode\\OCR_End_to_End\\.local",
       "packagesPath": "C:\\Users\\ADMIN\\.nuget\\packages\\",
-      "outputPath": "C:\\Users\\ADMIN\\Documents\\UiPath\\OCR_End_to_End\\.local"
+      "outputPath": "C:\\Users\\ADMIN\\Documents\\UiPath_AllCode\\UiPathCode\\OCR_End_to_End\\.local"
     },
     "frameworks": {
       "net461": {

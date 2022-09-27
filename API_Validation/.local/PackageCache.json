@@ -203,7 +203,7 @@
     {
       "Package": {
         "Id": "UiPath.WebAPI.Activities",
-        "Version": "1.11.1"
+        "Version": "1.11.2"
       },
       "Assemblies": [
         "C:\\Users\\ADMIN\\.nuget\\packages\\avalonedit\\6.0.1\\lib/net45/ICSharpCode.AvalonEdit.dll",
@@ -212,11 +212,11 @@
         "C:\\Users\\ADMIN\\.nuget\\packages\\system.io.abstractions\\3.0.10\\lib/net40/System.IO.Abstractions.dll",
         "C:\\Users\\ADMIN\\.nuget\\packages\\system.valuetuple\\4.5.0\\lib/net461/System.ValueTuple.dll",
         "C:\\Users\\ADMIN\\.nuget\\packages\\uipath.platform\\22.4.1\\lib/net461/UiPath.Platform.dll",
-        "C:\\Users\\ADMIN\\.nuget\\packages\\uipath.webapi.activities\\1.11.1\\lib/net461/UiPath.Web.Activities.Design.dll",
-        "C:\\Users\\ADMIN\\.nuget\\packages\\uipath.webapi.activities\\1.11.1\\lib/net461/UiPath.Web.Activities.dll",
-        "C:\\Users\\ADMIN\\.nuget\\packages\\uipath.webapi.activities\\1.11.1\\lib/net461/UiPath.Web.dll"
+        "C:\\Users\\ADMIN\\.nuget\\packages\\uipath.webapi.activities\\1.11.2\\lib/net461/UiPath.Web.Activities.Design.dll",
+        "C:\\Users\\ADMIN\\.nuget\\packages\\uipath.webapi.activities\\1.11.2\\lib/net461/UiPath.Web.Activities.dll",
+        "C:\\Users\\ADMIN\\.nuget\\packages\\uipath.webapi.activities\\1.11.2\\lib/net461/UiPath.Web.dll"
       ],
-      "Path": "C:\\Users\\ADMIN\\.nuget\\packages\\uipath.webapi.activities\\1.11.1"
+      "Path": "C:\\Users\\ADMIN\\.nuget\\packages\\uipath.webapi.activities\\1.11.2"
     }
   ],
   "Conflicts": [],
@@ -1523,7 +1523,7 @@
     },
     "UiPath.WebAPI.Activities": {
       "Id": "UiPath.WebAPI.Activities",
-      "Version": "1.11.1",
+      "Version": "1.11.2",
       "Dependencies": [
         {
           "Item1": "AvalonEdit",
@@ -2596,14 +2596,14 @@
     {
       "Package": {
         "Id": "UiPath.WebAPI.Activities",
-        "Version": "1.11.1"
+        "Version": "1.11.2"
       },
       "Assemblies": [
-        "C:\\Users\\ADMIN\\.nuget\\packages\\uipath.webapi.activities\\1.11.1\\lib\\net461\\UiPath.Web.Activities.Design.dll",
-        "C:\\Users\\ADMIN\\.nuget\\packages\\uipath.webapi.activities\\1.11.1\\lib\\net461\\UiPath.Web.Activities.dll",
-        "C:\\Users\\ADMIN\\.nuget\\packages\\uipath.webapi.activities\\1.11.1\\lib\\net461\\UiPath.Web.dll"
+        "C:\\Users\\ADMIN\\.nuget\\packages\\uipath.webapi.activities\\1.11.2\\lib\\net461\\UiPath.Web.Activities.Design.dll",
+        "C:\\Users\\ADMIN\\.nuget\\packages\\uipath.webapi.activities\\1.11.2\\lib\\net461\\UiPath.Web.Activities.dll",
+        "C:\\Users\\ADMIN\\.nuget\\packages\\uipath.webapi.activities\\1.11.2\\lib\\net461\\UiPath.Web.dll"
       ],
-      "Path": "C:\\Users\\ADMIN\\.nuget\\packages\\uipath.webapi.activities\\1.11.1"
+      "Path": "C:\\Users\\ADMIN\\.nuget\\packages\\uipath.webapi.activities\\1.11.2"
     }
   ]
 }

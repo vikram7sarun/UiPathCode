@@ -2253,7 +2253,7 @@
           "lib/net461/UiPath.Vision.dll": {}
         }
       },
-      "UiPath.WebAPI.Activities/1.11.1": {
+      "UiPath.WebAPI.Activities/1.11.2": {
         "type": "package",
         "dependencies": {
           "AvalonEdit": "6.0.1",
@@ -4577,7 +4577,7 @@
           "lib/net461/UiPath.Vision.dll": {}
         }
       },
-      "UiPath.WebAPI.Activities/1.11.1": {
+      "UiPath.WebAPI.Activities/1.11.2": {
         "type": "package",
         "dependencies": {
           "AvalonEdit": "6.0.1",
@@ -8652,10 +8652,10 @@
         "uipath.vision.nuspec"
       ]
     },
-    "UiPath.WebAPI.Activities/1.11.1": {
-      "sha512": "oU35AbjyH8yIEg2+gJCWY8DCXIf9kALPMFIGAb+Mq3RSbiY+pQl2PI3Me6OJndizIwj7u2KemVeBPLXoXR/vuw==",
+    "UiPath.WebAPI.Activities/1.11.2": {
+      "sha512": "U92lAhHJv6SOEjpA8OQs4FGUZ3LQOTHa1hglQyJ/MPIowP2Vt3eij4jqfqpHbAGUJ4Wsy0UpeZLphD+FGevZ4Q==",
       "type": "package",
-      "path": "uipath.webapi.activities/1.11.1",
+      "path": "uipath.webapi.activities/1.11.2",
       "files": [
         ".nupkg.metadata",
         ".signature.p7s",
@@ -8722,7 +8722,7 @@
         "lib/net5.0/ru/UiPath.Web.Activities.resources.dll",
         "lib/net5.0/tr/UiPath.Web.Activities.resources.dll",
         "lib/net5.0/zh-CN/UiPath.Web.Activities.resources.dll",
-        "uipath.webapi.activities.1.11.1.nupkg.sha512",
+        "uipath.webapi.activities.1.11.2.nupkg.sha512",
         "uipath.webapi.activities.nuspec"
       ]
     }
@@ -8734,7 +8734,7 @@
       "UiPath.Mail.Activities >= 1.15.2 <= 1.15.2",
       "UiPath.System.Activities >= 22.4.1 <= 22.4.1",
       "UiPath.UIAutomation.Activities >= 22.4.5 <= 22.4.5",
-      "UiPath.WebAPI.Activities >= 1.11.1 <= 1.11.1"
+      "UiPath.WebAPI.Activities >= 1.11.2 <= 1.11.2"
     ]
   },
   "packageFolders": {
@@ -8744,9 +8744,9 @@
     "restore": {
       "projectUniqueName": "API_Validation",
       "projectName": "API_Validation",
-      "projectPath": "C:\\Users\\ADMIN\\Documents\\UiPath\\API_Validation\\.local",
+      "projectPath": "C:\\Users\\ADMIN\\Documents\\UiPath_AllCode\\UiPathCode\\API_Validation\\.local",
       "packagesPath": "C:\\Users\\ADMIN\\.nuget\\packages\\",
-      "outputPath": "C:\\Users\\ADMIN\\Documents\\UiPath\\API_Validation\\.local"
+      "outputPath": "C:\\Users\\ADMIN\\Documents\\UiPath_AllCode\\UiPathCode\\API_Validation\\.local"
     },
     "frameworks": {
       "net461": {
@@ -8774,7 +8774,7 @@
           "UiPath.WebAPI.Activities": {
             "include": "Runtime",
             "target": "Package",
-            "version": "[1.11.1, 1.11.1]"
+            "version": "[1.11.2, 1.11.2]"
           }
         },
         "runtimeIdentifierGraphPath": "C:\\Users\\ADMIN\\AppData\\Local\\Programs\\UiPath\\Studio\\runtime.json"

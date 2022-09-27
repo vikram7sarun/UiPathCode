@@ -1,13 +1,13 @@
 {
-  "name": "API_Validation",
-  "description": "Blank Process",
+  "name": "API_Validation_UTD",
+  "description": "API_Validation_UTD",
   "main": "GetRequest.xaml",
   "dependencies": {
     "UiPath.Excel.Activities": "[2.12.3]",
     "UiPath.Mail.Activities": "[1.15.2]",
     "UiPath.System.Activities": "[22.4.1]",
     "UiPath.UIAutomation.Activities": "[22.4.5]",
-    "UiPath.WebAPI.Activities": "[1.11.1]"
+    "UiPath.WebAPI.Activities": "[1.11.2]"
   },
   "webServices": [],
   "entitiesStores": [],

@@ -7892,9 +7892,9 @@
     "restore": {
       "projectUniqueName": "ApiTest",
       "projectName": "ApiTest",
-      "projectPath": "C:\\Users\\ADMIN\\Documents\\UiPath\\ApiTest\\.local",
+      "projectPath": "C:\\Users\\ADMIN\\Documents\\UiPath_AllCode\\UiPathCode\\ApiTest\\.local",
       "packagesPath": "C:\\Users\\ADMIN\\.nuget\\packages\\",
-      "outputPath": "C:\\Users\\ADMIN\\Documents\\UiPath\\ApiTest\\.local"
+      "outputPath": "C:\\Users\\ADMIN\\Documents\\UiPath_AllCode\\UiPathCode\\ApiTest\\.local"
     },
     "frameworks": {
       "net461": {

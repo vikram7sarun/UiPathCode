@@ -1,4 +1,4 @@
-<Activity mc:Ignorable="sap sap2010" x:Class="JsonParsing" mva:VisualBasic.Settings="{x:Null}" sap:VirtualizedContainerService.HintSize="955,1227" sap2010:WorkflowViewState.IdRef="JsonParsing_1" xmlns="http://schemas.microsoft.com/netfx/2009/xaml/activities" xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006" xmlns:mva="clr-namespace:Microsoft.VisualBasic.Activities;assembly=System.Activities" xmlns:njl="clr-namespace:Newtonsoft.Json.Linq;assembly=Newtonsoft.Json" xmlns:sap="http://schemas.microsoft.com/netfx/2009/xaml/activities/presentation" xmlns:sap2010="http://schemas.microsoft.com/netfx/2010/xaml/activities/presentation" xmlns:scg="clr-namespace:System.Collections.Generic;assembly=mscorlib" xmlns:sco="clr-namespace:System.Collections.ObjectModel;assembly=mscorlib" xmlns:ui="http://schemas.uipath.com/workflow/activities" xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml">
+<Activity mc:Ignorable="sap sap2010" x:Class="JsonParsing" mva:VisualBasic.Settings="{x:Null}" sap:VirtualizedContainerService.HintSize="901,827" sap2010:WorkflowViewState.IdRef="JsonParsing_1" xmlns="http://schemas.microsoft.com/netfx/2009/xaml/activities" xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006" xmlns:mva="clr-namespace:Microsoft.VisualBasic.Activities;assembly=System.Activities" xmlns:njl="clr-namespace:Newtonsoft.Json.Linq;assembly=Newtonsoft.Json" xmlns:sap="http://schemas.microsoft.com/netfx/2009/xaml/activities/presentation" xmlns:sap2010="http://schemas.microsoft.com/netfx/2010/xaml/activities/presentation" xmlns:scg="clr-namespace:System.Collections.Generic;assembly=mscorlib" xmlns:sco="clr-namespace:System.Collections.ObjectModel;assembly=mscorlib" xmlns:ui="http://schemas.uipath.com/workflow/activities" xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml">
   <TextExpression.NamespacesForImplementation>
     <scg:List x:TypeArguments="x:String" Capacity="66">
       <x:String>System.Activities</x:String>
@@ -72,7 +72,7 @@
       <AssemblyReference>System.Runtime.WindowsRuntime</AssemblyReference>
     </sco:Collection>
   </TextExpression.ReferencesForImplementation>
-  <Sequence DisplayName="JsonParsing" sap:VirtualizedContainerService.HintSize="478,1162" sap2010:WorkflowViewState.IdRef="Sequence_1">
+  <Sequence DisplayName="JsonParsing" sap:VirtualizedContainerService.HintSize="376,638" sap2010:WorkflowViewState.IdRef="Sequence_1">
     <Sequence.Variables>
       <Variable x:TypeArguments="x:String" Name="resp" />
       <Variable x:TypeArguments="njl:JObject" Name="dResp" />
@@ -82,7 +82,7 @@
         <x:Boolean x:Key="IsExpanded">True</x:Boolean>
       </scg:Dictionary>
     </sap:WorkflowViewStateService.ViewState>
-    <ui:HttpClient Body="{x:Null}" ClientCertificate="{x:Null}" ClientCertificatePassword="{x:Null}" ConsumerKey="{x:Null}" ConsumerSecret="{x:Null}" ContinueOnError="{x:Null}" FileAttachments="{x:Null}" OAuth1Token="{x:Null}" OAuth1TokenSecret="{x:Null}" OAuth2Token="{x:Null}" Password="{x:Null}" ResourcePath="{x:Null}" ResponseAttachment="{x:Null}" ResponseHeaders="{x:Null}" SecureClientCertificatePassword="{x:Null}" SecurePassword="{x:Null}" StatusCode="{x:Null}" Username="{x:Null}" AcceptFormat="JSON" AuthenticationType="None" BodyFormat="application/xml" DisplayName="HTTP Request" EnableSSLVerification="True" EndPoint="https://randomuser.me/api/" sap:VirtualizedContainerService.HintSize="436,57" sap2010:WorkflowViewState.IdRef="HttpClient_1" Method="GET" Result="[resp]" TimeoutMS="6000">
+    <ui:HttpClient Body="{x:Null}" ClientCertificate="{x:Null}" ClientCertificatePassword="{x:Null}" ConsumerKey="{x:Null}" ConsumerSecret="{x:Null}" ContinueOnError="{x:Null}" FileAttachments="{x:Null}" OAuth1Token="{x:Null}" OAuth1TokenSecret="{x:Null}" OAuth2Token="{x:Null}" Password="{x:Null}" ResourcePath="{x:Null}" ResponseAttachment="{x:Null}" ResponseHeaders="{x:Null}" SecureClientCertificatePassword="{x:Null}" SecurePassword="{x:Null}" StatusCode="{x:Null}" Username="{x:Null}" AcceptFormat="JSON" AuthenticationType="None" BodyFormat="application/xml" DisplayName="HTTP Request" EnableSSLVerification="True" EndPoint="https://randomuser.me/api/" sap:VirtualizedContainerService.HintSize="334,51" sap2010:WorkflowViewState.IdRef="HttpClient_1" Method="GET" Result="[resp]" TimeoutMS="6000">
       <ui:HttpClient.Attachments>
         <scg:Dictionary x:TypeArguments="x:String, InArgument(x:String)" />
       </ui:HttpClient.Attachments>
@@ -98,9 +98,22 @@
       <ui:HttpClient.UrlSegments>
         <scg:Dictionary x:TypeArguments="x:String, InArgument(x:String)" />
       </ui:HttpClient.UrlSegments>
+      <sap:WorkflowViewStateService.ViewState>
+        <scg:Dictionary x:TypeArguments="x:String, x:Object">
+          <x:Boolean x:Key="IsExpanded">False</x:Boolean>
+          <x:Boolean x:Key="IsPinned">False</x:Boolean>
+        </scg:Dictionary>
+      </sap:WorkflowViewStateService.ViewState>
     </ui:HttpClient>
-    <ui:DeserializeJson x:TypeArguments="njl:JObject" DisplayName="Deserialize JSON" sap:VirtualizedContainerService.HintSize="436,59" sap2010:WorkflowViewState.IdRef="DeserializeJson`1_1" JsonObject="[dResp]" JsonString="[resp]" />
-    <ui:CommentOut DisplayName="Comment Out" sap:VirtualizedContainerService.HintSize="436,221" sap2010:WorkflowViewState.IdRef="CommentOut_1">
+    <ui:DeserializeJson x:TypeArguments="njl:JObject" DisplayName="Deserialize JSON" sap:VirtualizedContainerService.HintSize="334,51" sap2010:WorkflowViewState.IdRef="DeserializeJson`1_1" JsonObject="[dResp]" JsonString="[resp]">
+      <sap:WorkflowViewStateService.ViewState>
+        <scg:Dictionary x:TypeArguments="x:String, x:Object">
+          <x:Boolean x:Key="IsExpanded">False</x:Boolean>
+          <x:Boolean x:Key="IsPinned">False</x:Boolean>
+        </scg:Dictionary>
+      </sap:WorkflowViewStateService.ViewState>
+    </ui:DeserializeJson>
+    <ui:CommentOut DisplayName="Comment Out" sap:VirtualizedContainerService.HintSize="334,51" sap2010:WorkflowViewState.IdRef="CommentOut_1">
       <ui:CommentOut.Body>
         <Sequence DisplayName="Ignored Activities" sap:VirtualizedContainerService.HintSize="242,143" sap2010:WorkflowViewState.IdRef="Sequence_3">
           <sap:WorkflowViewStateService.ViewState>
@@ -118,8 +131,14 @@
           </ui:LogMessage>
         </Sequence>
       </ui:CommentOut.Body>
+      <sap:WorkflowViewStateService.ViewState>
+        <scg:Dictionary x:TypeArguments="x:String, x:Object">
+          <x:Boolean x:Key="IsExpanded">False</x:Boolean>
+          <x:Boolean x:Key="IsPinned">False</x:Boolean>
+        </scg:Dictionary>
+      </sap:WorkflowViewStateService.ViewState>
     </ui:CommentOut>
-    <ui:CommentOut DisplayName="Comment Out" sap:VirtualizedContainerService.HintSize="436,221" sap2010:WorkflowViewState.IdRef="CommentOut_2">
+    <ui:CommentOut DisplayName="Comment Out" sap:VirtualizedContainerService.HintSize="334,51" sap2010:WorkflowViewState.IdRef="CommentOut_2">
       <ui:CommentOut.Body>
         <Sequence DisplayName="Ignored Activities" sap:VirtualizedContainerService.HintSize="242,143" sap2010:WorkflowViewState.IdRef="Sequence_4">
           <sap:WorkflowViewStateService.ViewState>
@@ -137,16 +156,22 @@
           </ui:LogMessage>
         </Sequence>
       </ui:CommentOut.Body>
+      <sap:WorkflowViewStateService.ViewState>
+        <scg:Dictionary x:TypeArguments="x:String, x:Object">
+          <x:Boolean x:Key="IsExpanded">False</x:Boolean>
+          <x:Boolean x:Key="IsPinned">False</x:Boolean>
+        </scg:Dictionary>
+      </sap:WorkflowViewStateService.ViewState>
     </ui:CommentOut>
-    <ui:CommentOut DisplayName="Comment Out" sap:VirtualizedContainerService.HintSize="436,221" sap2010:WorkflowViewState.IdRef="CommentOut_3">
+    <ui:CommentOut DisplayName="Comment Out" sap:VirtualizedContainerService.HintSize="334,51" sap2010:WorkflowViewState.IdRef="CommentOut_3">
       <ui:CommentOut.Body>
-        <Sequence DisplayName="Ignored Activities" sap:VirtualizedContainerService.HintSize="242,143" sap2010:WorkflowViewState.IdRef="Sequence_5">
+        <Sequence DisplayName="Ignored Activities" sap:VirtualizedContainerService.HintSize="476,398" sap2010:WorkflowViewState.IdRef="Sequence_5">
           <sap:WorkflowViewStateService.ViewState>
             <scg:Dictionary x:TypeArguments="x:String, x:Object">
               <x:Boolean x:Key="IsExpanded">True</x:Boolean>
             </scg:Dictionary>
           </sap:WorkflowViewStateService.ViewState>
-          <ui:ForEach x:TypeArguments="x:Object" CurrentIndex="{x:Null}" DisplayName="For Each" sap:VirtualizedContainerService.HintSize="200,51" sap2010:WorkflowViewState.IdRef="ForEach`1_1" Values="[dResp.Values]">
+          <ui:ForEach x:TypeArguments="x:Object" CurrentIndex="{x:Null}" DisplayName="For Each" sap:VirtualizedContainerService.HintSize="434,306" sap2010:WorkflowViewState.IdRef="ForEach`1_1" Values="[dResp.Values]">
             <ui:ForEach.Body>
               <ActivityAction x:TypeArguments="x:Object">
                 <ActivityAction.Argument>
@@ -164,14 +189,27 @@
             </ui:ForEach.Body>
             <sap:WorkflowViewStateService.ViewState>
               <scg:Dictionary x:TypeArguments="x:String, x:Object">
-                <x:Boolean x:Key="IsExpanded">False</x:Boolean>
+                <x:Boolean x:Key="IsExpanded">True</x:Boolean>
                 <x:Boolean x:Key="IsPinned">False</x:Boolean>
               </scg:Dictionary>
             </sap:WorkflowViewStateService.ViewState>
           </ui:ForEach>
         </Sequence>
       </ui:CommentOut.Body>
+      <sap:WorkflowViewStateService.ViewState>
+        <scg:Dictionary x:TypeArguments="x:String, x:Object">
+          <x:Boolean x:Key="IsExpanded">False</x:Boolean>
+          <x:Boolean x:Key="IsPinned">False</x:Boolean>
+        </scg:Dictionary>
+      </sap:WorkflowViewStateService.ViewState>
     </ui:CommentOut>
-    <ui:LogMessage DisplayName="Log Message" sap:VirtualizedContainerService.HintSize="436,91" sap2010:WorkflowViewState.IdRef="LogMessage_4" Level="Info" Message="[dResp(&quot;results&quot;)(0)(&quot;email&quot;).ToString _&#xD;&#xA;+dResp(&quot;results&quot;)(0)(&quot;name&quot;)(&quot;title&quot;).ToString+&quot;  &quot;+dResp(&quot;results&quot;)(0)(&quot;name&quot;)(&quot;first&quot;).ToString+&quot;  &quot;+dResp(&quot;results&quot;)(0)(&quot;name&quot;)(&quot;last&quot;).ToString _&#xD;&#xA;+dResp(&quot;results&quot;)(0)(&quot;location&quot;)(&quot;country&quot;).ToString]" />
+    <ui:LogMessage DisplayName="Log Message" sap:VirtualizedContainerService.HintSize="334,91" sap2010:WorkflowViewState.IdRef="LogMessage_4" Level="Info" Message="[dResp(&quot;results&quot;)(0)(&quot;email&quot;).ToString _&#xD;&#xA;+dResp(&quot;results&quot;)(0)(&quot;name&quot;)(&quot;title&quot;).ToString+&quot;  &quot;+dResp(&quot;results&quot;)(0)(&quot;name&quot;)(&quot;first&quot;).ToString+&quot;  &quot;+dResp(&quot;results&quot;)(0)(&quot;name&quot;)(&quot;last&quot;).ToString _&#xD;&#xA;+dResp(&quot;results&quot;)(0)(&quot;location&quot;)(&quot;country&quot;).ToString _]">
+      <sap:WorkflowViewStateService.ViewState>
+        <scg:Dictionary x:TypeArguments="x:String, x:Object">
+          <x:Boolean x:Key="IsExpanded">True</x:Boolean>
+          <x:Boolean x:Key="IsPinned">False</x:Boolean>
+        </scg:Dictionary>
+      </sap:WorkflowViewStateService.ViewState>
+    </ui:LogMessage>
   </Sequence>
 </Activity>

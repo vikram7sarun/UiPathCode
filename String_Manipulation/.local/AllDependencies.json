@@ -7568,9 +7568,9 @@
     "restore": {
       "projectUniqueName": "String_Manipulation",
       "projectName": "String_Manipulation",
-      "projectPath": "C:\\Users\\ADMIN\\Documents\\UiPath\\String_Manipulation\\.local",
+      "projectPath": "C:\\Users\\ADMIN\\Documents\\UiPath_AllCode\\UiPathCode\\String_Manipulation\\.local",
       "packagesPath": "C:\\Users\\ADMIN\\.nuget\\packages\\",
-      "outputPath": "C:\\Users\\ADMIN\\Documents\\UiPath\\String_Manipulation\\.local"
+      "outputPath": "C:\\Users\\ADMIN\\Documents\\UiPath_AllCode\\UiPathCode\\String_Manipulation\\.local"
     },
     "frameworks": {
       "net461": {

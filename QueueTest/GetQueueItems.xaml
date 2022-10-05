@@ -1,4 +1,4 @@
-<Activity mc:Ignorable="sap sap2010" x:Class="GetQueueItems" mva:VisualBasic.Settings="{x:Null}" sap:VirtualizedContainerService.HintSize="1192,837" sap2010:WorkflowViewState.IdRef="GetQueueItems_1" xmlns="http://schemas.microsoft.com/netfx/2009/xaml/activities" xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006" xmlns:mva="clr-namespace:Microsoft.VisualBasic.Activities;assembly=System.Activities" xmlns:sap="http://schemas.microsoft.com/netfx/2009/xaml/activities/presentation" xmlns:sap2010="http://schemas.microsoft.com/netfx/2010/xaml/activities/presentation" xmlns:scg="clr-namespace:System.Collections.Generic;assembly=mscorlib" xmlns:ui="http://schemas.uipath.com/workflow/activities" xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml">
+<Activity mc:Ignorable="sap sap2010" x:Class="GetQueueItems" mva:VisualBasic.Settings="{x:Null}" sap:VirtualizedContainerService.HintSize="1006,827" sap2010:WorkflowViewState.IdRef="GetQueueItems_1" xmlns="http://schemas.microsoft.com/netfx/2009/xaml/activities" xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006" xmlns:mva="clr-namespace:Microsoft.VisualBasic.Activities;assembly=System.Activities" xmlns:sap="http://schemas.microsoft.com/netfx/2009/xaml/activities/presentation" xmlns:sap2010="http://schemas.microsoft.com/netfx/2010/xaml/activities/presentation" xmlns:scg="clr-namespace:System.Collections.Generic;assembly=mscorlib" xmlns:ui="http://schemas.uipath.com/workflow/activities" xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml">
   <TextExpression.NamespacesForImplementation>
     <scg:List x:TypeArguments="x:String" Capacity="27">
       <x:String>System.Activities</x:String>
@@ -57,18 +57,14 @@
   <Sequence DisplayName="GetQueueItems - Fetch all 100" sap:VirtualizedContainerService.HintSize="404,629" sap2010:WorkflowViewState.IdRef="Sequence_1">
     <Sequence.Variables>
       <Variable x:TypeArguments="scg:IEnumerable(ui:QueueItem)" Name="queueOp" />
-      <Variable x:TypeArguments="x:Int32" Name="queueOpCount">
-        <Variable.Default>
-          <Literal x:TypeArguments="x:Int32" />
-        </Variable.Default>
-      </Variable>
+      <Variable x:TypeArguments="x:Int32" Default="0" Name="queueOpCount" />
     </Sequence.Variables>
     <sap:WorkflowViewStateService.ViewState>
       <scg:Dictionary x:TypeArguments="x:String, x:Object">
         <x:Boolean x:Key="IsExpanded">True</x:Boolean>
       </scg:Dictionary>
     </sap:WorkflowViewStateService.ViewState>
-    <ui:InterruptibleDoWhile DisplayName="Do While" sap:VirtualizedContainerService.HintSize="362,537" sap2010:WorkflowViewState.IdRef="InterruptibleDoWhile_1">
+    <ui:InterruptibleDoWhile Condition="[queueOpCount = 100]" DisplayName="Do While" sap:VirtualizedContainerService.HintSize="362,537" sap2010:WorkflowViewState.IdRef="InterruptibleDoWhile_1">
       <ui:InterruptibleDoWhile.Body>
         <Sequence DisplayName="Body" sap:VirtualizedContainerService.HintSize="326,372" sap2010:WorkflowViewState.IdRef="Sequence_2">
           <sap:WorkflowViewStateService.ViewState>
@@ -76,7 +72,7 @@
               <x:Boolean x:Key="IsExpanded">True</x:Boolean>
             </scg:Dictionary>
           </sap:WorkflowViewStateService.ViewState>
-          <ui:GetQueueItems Duration="{x:Null}" From="{x:Null}" Priority="{x:Null}" Reference="{x:Null}" TimeoutMS="{x:Null}" To="{x:Null}" DisplayName="Get Queue Items" FilterStrategy="StartsWith" sap:VirtualizedContainerService.HintSize="284,79" sap2010:WorkflowViewState.IdRef="GetQueueItems_2" QueueItemStates="All" QueueName="Queue1" Result="[queueOp]" Skip="[queueOpCount]" Top="100" />
+          <ui:GetQueueItems Duration="{x:Null}" From="{x:Null}" Priority="{x:Null}" Reference="{x:Null}" TimeoutMS="{x:Null}" To="{x:Null}" DisplayName="Get Queue Items" FilterStrategy="StartsWith" sap:VirtualizedContainerService.HintSize="284,79" sap2010:WorkflowViewState.IdRef="GetQueueItems_2" QueueItemStates="New" QueueName="Queue1" Result="[queueOp]" Skip="[queueOpCount]" Top="100" />
           <WriteLine DisplayName="Write Line" sap:VirtualizedContainerService.HintSize="284,61" sap2010:WorkflowViewState.IdRef="WriteLine_1" Text="[queueOp.Count.ToString]" />
           <Assign sap:VirtualizedContainerService.HintSize="284,60" sap2010:WorkflowViewState.IdRef="Assign_1">
             <Assign.To>
@@ -88,9 +84,6 @@
           </Assign>
         </Sequence>
       </ui:InterruptibleDoWhile.Body>
-      <ui:InterruptibleDoWhile.Condition>
-        <mva:VisualBasicValue x:TypeArguments="x:Boolean" ExpressionText="queueOpCount = 100" />
-      </ui:InterruptibleDoWhile.Condition>
       <sap:WorkflowViewStateService.ViewState>
         <scg:Dictionary x:TypeArguments="x:String, x:Object">
           <x:Boolean x:Key="IsExpanded">True</x:Boolean>

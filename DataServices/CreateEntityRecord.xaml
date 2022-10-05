@@ -1,6 +1,6 @@
-<Activity mc:Ignorable="sap sap2010" x:Class="CreateEntityRecord" mva:VisualBasic.Settings="{x:Null}" sap:VirtualizedContainerService.HintSize="1030,1661" sap2010:WorkflowViewState.IdRef="CreateEntityRecord_1" xmlns="http://schemas.microsoft.com/netfx/2009/xaml/activities" xmlns:d="clr-namespace:DataServices;assembly=DataService.DataServices" xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006" xmlns:mva="clr-namespace:Microsoft.VisualBasic.Activities;assembly=System.Activities" xmlns:s="clr-namespace:System;assembly=mscorlib" xmlns:sap="http://schemas.microsoft.com/netfx/2009/xaml/activities/presentation" xmlns:sap2010="http://schemas.microsoft.com/netfx/2010/xaml/activities/presentation" xmlns:scg="clr-namespace:System.Collections.Generic;assembly=mscorlib" xmlns:uda="clr-namespace:UiPath.DataService.Activities;assembly=UiPath.DataService.Activities.Core" xmlns:ui="http://schemas.uipath.com/workflow/activities" xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml">
+<Activity mc:Ignorable="sap sap2010" x:Class="CreateEntityRecord" mva:VisualBasic.Settings="{x:Null}" sap:VirtualizedContainerService.HintSize="1030,2091" sap2010:WorkflowViewState.IdRef="CreateEntityRecord_1" xmlns="http://schemas.microsoft.com/netfx/2009/xaml/activities" xmlns:d="clr-namespace:DataServices;assembly=DataService.DataServices" xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006" xmlns:mva="clr-namespace:Microsoft.VisualBasic.Activities;assembly=System.Activities" xmlns:s="clr-namespace:System;assembly=mscorlib" xmlns:sap="http://schemas.microsoft.com/netfx/2009/xaml/activities/presentation" xmlns:sap2010="http://schemas.microsoft.com/netfx/2010/xaml/activities/presentation" xmlns:scg="clr-namespace:System.Collections.Generic;assembly=mscorlib" xmlns:sco="clr-namespace:System.Collections.ObjectModel;assembly=mscorlib" xmlns:uda="clr-namespace:UiPath.DataService.Activities;assembly=UiPath.DataService.Activities.Core" xmlns:udd="clr-namespace:UiPath.DataService.Definition;assembly=UiPath.DataService.Definition" xmlns:ui="http://schemas.uipath.com/workflow/activities" xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml">
   <TextExpression.NamespacesForImplementation>
-    <scg:List x:TypeArguments="x:String" Capacity="27">
+    <scg:List x:TypeArguments="x:String" Capacity="54">
       <x:String>System.Activities</x:String>
       <x:String>System.Activities.Statements</x:String>
       <x:String>System.Activities.Expressions</x:String>
@@ -28,10 +28,13 @@
       <x:String>UiPath.DataService.Activities</x:String>
       <x:String>UiPath.Shared.Activities</x:String>
       <x:String>DataServices</x:String>
+      <x:String>System.Runtime.CompilerServices</x:String>
+      <x:String>System.Collections.ObjectModel</x:String>
+      <x:String>System.Activities.DynamicUpdate</x:String>
     </scg:List>
   </TextExpression.NamespacesForImplementation>
   <TextExpression.ReferencesForImplementation>
-    <scg:List x:TypeArguments="AssemblyReference" Capacity="25">
+    <sco:Collection x:TypeArguments="AssemblyReference">
       <AssemblyReference>System.Activities</AssemblyReference>
       <AssemblyReference>Microsoft.VisualBasic</AssemblyReference>
       <AssemblyReference>mscorlib</AssemblyReference>
@@ -57,9 +60,17 @@
       <AssemblyReference>UiPath.UIAutomationCore</AssemblyReference>
       <AssemblyReference>UiPath.OCR.Activities</AssemblyReference>
       <AssemblyReference>DataService.DataServices</AssemblyReference>
-    </scg:List>
+      <AssemblyReference>System.ServiceModel</AssemblyReference>
+      <AssemblyReference>Microsoft.Bcl.AsyncInterfaces</AssemblyReference>
+      <AssemblyReference>System.ValueTuple</AssemblyReference>
+      <AssemblyReference>System.ComponentModel.Composition</AssemblyReference>
+      <AssemblyReference>NPOI</AssemblyReference>
+      <AssemblyReference>System.Runtime.WindowsRuntime</AssemblyReference>
+      <AssemblyReference>System.Threading.Tasks.Extensions</AssemblyReference>
+      <AssemblyReference>System.Runtime.CompilerServices.Unsafe</AssemblyReference>
+    </sco:Collection>
   </TextExpression.ReferencesForImplementation>
-  <Sequence DisplayName="CreateEntityRecord" sap:VirtualizedContainerService.HintSize="473,1596" sap2010:WorkflowViewState.IdRef="Sequence_1">
+  <Sequence DisplayName="CreateEntityRecord" sap:VirtualizedContainerService.HintSize="478,2026" sap2010:WorkflowViewState.IdRef="Sequence_1">
     <Sequence.Variables>
       <Variable x:TypeArguments="d:Client" Name="InputRecord" />
       <Variable x:TypeArguments="d:Client" Name="OutputRecord" />
@@ -77,7 +88,19 @@
         <x:Boolean x:Key="IsExpanded">True</x:Boolean>
       </scg:Dictionary>
     </sap:WorkflowViewStateService.ViewState>
-    <Assign sap:VirtualizedContainerService.HintSize="431,60" sap2010:WorkflowViewState.IdRef="Assign_1">
+    <ui:CommentOut DisplayName="Comment Out" sap:VirtualizedContainerService.HintSize="436,390" sap2010:WorkflowViewState.IdRef="CommentOut_1">
+      <ui:CommentOut.Body>
+        <Sequence DisplayName="Ignored Activities" sap:VirtualizedContainerService.HintSize="383,312" sap2010:WorkflowViewState.IdRef="Sequence_2">
+          <sap:WorkflowViewStateService.ViewState>
+            <scg:Dictionary x:TypeArguments="x:String, x:Object">
+              <x:Boolean x:Key="IsExpanded">True</x:Boolean>
+            </scg:Dictionary>
+          </sap:WorkflowViewStateService.ViewState>
+          <uda:CreateMultipleEntityRecords x:TypeArguments="udd:IEntity" FailedRecords="{x:Null}" InputRecords="{x:Null}" OutputRecords="{x:Null}" ContinueBatchOnFailure="True" ContinueOnError="False" DisplayName="Create Multiple Entity Records" ExpansionDepth="2" sap:VirtualizedContainerService.HintSize="341,220" sap2010:WorkflowViewState.IdRef="CreateMultipleEntityRecords`1_1" TimeoutInMs="30000" />
+        </Sequence>
+      </ui:CommentOut.Body>
+    </ui:CommentOut>
+    <Assign sap:VirtualizedContainerService.HintSize="436,60" sap2010:WorkflowViewState.IdRef="Assign_1">
       <Assign.To>
         <OutArgument x:TypeArguments="d:Client">[InputRecord]</OutArgument>
       </Assign.To>
@@ -85,7 +108,7 @@
         <InArgument x:TypeArguments="d:Client">[new Client]</InArgument>
       </Assign.Value>
     </Assign>
-    <ui:MultipleAssign DisplayName="Multiple Assign" sap:VirtualizedContainerService.HintSize="431,162" sap2010:WorkflowViewState.IdRef="MultipleAssign_1">
+    <ui:MultipleAssign DisplayName="Multiple Assign" sap:VirtualizedContainerService.HintSize="436,162" sap2010:WorkflowViewState.IdRef="MultipleAssign_1">
       <ui:MultipleAssign.AssignOperations>
         <scg:List x:TypeArguments="ui:AssignOperation" Capacity="4">
           <ui:AssignOperation sap2010:WorkflowViewState.IdRef="AssignOperation_1">
@@ -115,7 +138,7 @@
         </scg:List>
       </ui:MultipleAssign.AssignOperations>
     </ui:MultipleAssign>
-    <uda:QueryEntityRecords x:TypeArguments="d:Client" TotalRecords="{x:Null}" ContinueOnError="False" DisplayName="Query Entity Records" ExpansionDepth="2" sap:VirtualizedContainerService.HintSize="431,221" sap2010:WorkflowViewState.IdRef="QueryEntityRecords`1_1" OutputRecords="[QueryEntityRecordOp]" Skip="0" SortAscending="True" SortByField="Id" TimeoutInMs="30000" Top="100">
+    <uda:QueryEntityRecords x:TypeArguments="d:Client" TotalRecords="{x:Null}" ContinueOnError="False" DisplayName="Query Entity Records" ExpansionDepth="2" sap:VirtualizedContainerService.HintSize="436,221" sap2010:WorkflowViewState.IdRef="QueryEntityRecords`1_1" OutputRecords="[QueryEntityRecordOp]" Skip="0" SortAscending="True" SortByField="Id" TimeoutInMs="30000" Top="100">
       <uda:QueryEntityRecords.FilterArguments>
         <uda:FilterArgument FilterActivityType="d:Client">
           <uda:FilterArgument.Filter>
@@ -144,8 +167,8 @@
         </scg:Dictionary>
       </sap:WorkflowViewStateService.ViewState>
     </uda:QueryEntityRecords>
-    <uda:GetEntityRecordById x:TypeArguments="d:Client" ContinueOnError="False" DisplayName="Get Entity Record By Id" EntityId="[recordID]" ExpansionDepth="2" sap:VirtualizedContainerService.HintSize="431,220" sap2010:WorkflowViewState.IdRef="GetEntityRecordById`1_1" OutputEntity="[outputSignal]" TimeoutInMs="30000" />
-    <Assign sap:VirtualizedContainerService.HintSize="431,60" sap2010:WorkflowViewState.IdRef="Assign_2">
+    <uda:GetEntityRecordById x:TypeArguments="d:Client" ContinueOnError="False" DisplayName="Get Entity Record By Id" EntityId="[recordID]" ExpansionDepth="2" sap:VirtualizedContainerService.HintSize="436,220" sap2010:WorkflowViewState.IdRef="GetEntityRecordById`1_1" OutputEntity="[outputSignal]" TimeoutInMs="30000" />
+    <Assign sap:VirtualizedContainerService.HintSize="436,60" sap2010:WorkflowViewState.IdRef="Assign_2">
       <Assign.To>
         <OutArgument x:TypeArguments="x:String">[outputSignal.Address]</OutArgument>
       </Assign.To>
@@ -153,8 +176,8 @@
         <InArgument x:TypeArguments="x:String">kantha Residendy 1234 loosu jinkhu</InArgument>
       </Assign.Value>
     </Assign>
-    <uda:UpdateEntityRecord x:TypeArguments="d:Client" ContinueOnError="False" DisplayName="Update Entity Record" ExpansionDepth="2" sap:VirtualizedContainerService.HintSize="431,220" sap2010:WorkflowViewState.IdRef="UpdateEntityRecord`1_1" InputEntity="[outputSignal]" OutputEntity="[OutputRecord]" TimeoutInMs="30000" />
-    <uda:CreateEntityRecord x:TypeArguments="d:Client" ContinueOnError="False" DisplayName="Create Entity Record" ExpansionDepth="2" sap:VirtualizedContainerService.HintSize="431,220" sap2010:WorkflowViewState.IdRef="CreateEntityRecord`1_1" InputEntity="[InputRecord]" OutputEntity="[OutputRecord]" TimeoutInMs="30000" />
-    <WriteLine DisplayName="Write Line" sap:VirtualizedContainerService.HintSize="431,61" sap2010:WorkflowViewState.IdRef="WriteLine_1" Text="Done" />
+    <uda:UpdateEntityRecord x:TypeArguments="d:Client" ContinueOnError="False" DisplayName="Update Entity Record" ExpansionDepth="2" sap:VirtualizedContainerService.HintSize="436,220" sap2010:WorkflowViewState.IdRef="UpdateEntityRecord`1_1" InputEntity="[outputSignal]" OutputEntity="[OutputRecord]" TimeoutInMs="30000" />
+    <uda:CreateEntityRecord x:TypeArguments="d:Client" ContinueOnError="False" DisplayName="Create Entity Record" ExpansionDepth="2" sap:VirtualizedContainerService.HintSize="436,220" sap2010:WorkflowViewState.IdRef="CreateEntityRecord`1_1" InputEntity="[InputRecord]" OutputEntity="[OutputRecord]" TimeoutInMs="30000" />
+    <WriteLine DisplayName="Write Line" sap:VirtualizedContainerService.HintSize="436,61" sap2010:WorkflowViewState.IdRef="WriteLine_1" Text="Done" />
   </Sequence>
 </Activity>

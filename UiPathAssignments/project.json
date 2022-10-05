@@ -1,17 +1,17 @@
 {
-  "name": "SelectorsTest3",
-  "description": "Blank Process",
+  "name": "UiPathAssignments",
+  "description": "UiPathAssignments",
   "main": "Main.xaml",
   "dependencies": {
-    "UiPath.Excel.Activities": "[2.11.4]",
-    "UiPath.Mail.Activities": "[1.12.3]",
-    "UiPath.System.Activities": "[21.10.3]",
-    "UiPath.UIAutomation.Activities": "[21.10.4]"
+    "UiPath.Excel.Activities": "[2.12.3]",
+    "UiPath.Mail.Activities": "[1.15.2]",
+    "UiPath.System.Activities": "[22.4.5]",
+    "UiPath.UIAutomation.Activities": "[22.4.7]"
   },
   "webServices": [],
   "entitiesStores": [],
   "schemaVersion": "4.0",
-  "studioVersion": "21.10.4.0",
+  "studioVersion": "22.4.5.0",
   "projectVersion": "1.0.0",
   "runtimeOptions": {
     "autoDispose": false,
@@ -40,13 +40,13 @@
       "ignoredFiles": []
     },
     "fileInfoCollection": [],
-    "modernBehavior": false
+    "modernBehavior": true
   },
   "expressionLanguage": "VisualBasic",
   "entryPoints": [
     {
       "filePath": "Main.xaml",
-      "uniqueId": "a23a73f8-41c1-43e5-abc5-121623477dd4",
+      "uniqueId": "4b180d13-a7ec-4691-852a-544e2ac055ff",
       "input": [],
       "output": []
     }

@@ -7568,9 +7568,9 @@
     "restore": {
       "projectUniqueName": "LinearProcessusingREFramework",
       "projectName": "LinearProcessusingREFramework",
-      "projectPath": "C:\\Users\\ADMIN\\Documents\\UiPath\\LinearProcessusingREFramework\\.local",
+      "projectPath": "C:\\Users\\ADMIN\\Documents\\UiPath_AllCode\\UiPathCode\\LinearProcessusingREFramework\\.local",
       "packagesPath": "C:\\Users\\ADMIN\\.nuget\\packages\\",
-      "outputPath": "C:\\Users\\ADMIN\\Documents\\UiPath\\LinearProcessusingREFramework\\.local"
+      "outputPath": "C:\\Users\\ADMIN\\Documents\\UiPath_AllCode\\UiPathCode\\LinearProcessusingREFramework\\.local"
     },
     "frameworks": {
       "net461": {

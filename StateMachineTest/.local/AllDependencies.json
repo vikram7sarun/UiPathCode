@@ -7568,9 +7568,9 @@
     "restore": {
       "projectUniqueName": "StateMachineTest",
       "projectName": "StateMachineTest",
-      "projectPath": "C:\\Users\\ADMIN\\Documents\\UiPath\\StateMachineTest\\.local",
+      "projectPath": "C:\\Users\\ADMIN\\Documents\\UiPath_AllCode\\UiPathCode\\StateMachineTest\\.local",
       "packagesPath": "C:\\Users\\ADMIN\\.nuget\\packages\\",
-      "outputPath": "C:\\Users\\ADMIN\\Documents\\UiPath\\StateMachineTest\\.local"
+      "outputPath": "C:\\Users\\ADMIN\\Documents\\UiPath_AllCode\\UiPathCode\\StateMachineTest\\.local"
     },
     "frameworks": {
       "net461": {

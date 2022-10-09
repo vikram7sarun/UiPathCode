@@ -2,6 +2,17 @@
   "Packages": [
     {
       "Package": {
+        "Id": "Microsoft.Activities.Extensions",
+        "Version": "2.0.6.9"
+      },
+      "Assemblies": [
+        "C:\\Users\\ADMIN\\.nuget\\packages\\microsoft.activities.extensions\\2.0.6.9\\lib/Net45/Microsoft.Activities.Extensions.Design.dll",
+        "C:\\Users\\ADMIN\\.nuget\\packages\\microsoft.activities.extensions\\2.0.6.9\\lib/Net45/Microsoft.Activities.Extensions.dll"
+      ],
+      "Path": "C:\\Users\\ADMIN\\.nuget\\packages\\microsoft.activities.extensions\\2.0.6.9"
+    },
+    {
+      "Package": {
         "Id": "UiPath.Excel.Activities",
         "Version": "2.11.4"
       },
@@ -178,17 +189,6 @@
         "C:\\Users\\ADMIN\\.nuget\\packages\\uipath.vision\\3.1.4\\lib/net461/UiPath.Vision.dll"
       ],
       "Path": "C:\\Users\\ADMIN\\.nuget\\packages\\uipath.uiautomation.activities\\21.10.4"
-    },
-    {
-      "Package": {
-        "Id": "Microsoft.Activities.Extensions",
-        "Version": "2.0.6.9"
-      },
-      "Assemblies": [
-        "C:\\Users\\ADMIN\\.nuget\\packages\\microsoft.activities.extensions\\2.0.6.9\\lib/Net45/Microsoft.Activities.Extensions.Design.dll",
-        "C:\\Users\\ADMIN\\.nuget\\packages\\microsoft.activities.extensions\\2.0.6.9\\lib/Net45/Microsoft.Activities.Extensions.dll"
-      ],
-      "Path": "C:\\Users\\ADMIN\\.nuget\\packages\\microsoft.activities.extensions\\2.0.6.9"
     }
   ],
   "Conflicts": [],

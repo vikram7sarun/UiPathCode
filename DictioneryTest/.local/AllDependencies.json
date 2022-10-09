@@ -7616,9 +7616,9 @@
     "restore": {
       "projectUniqueName": "DictioneryTest",
       "projectName": "DictioneryTest",
-      "projectPath": "C:\\Users\\ADMIN\\Documents\\UiPath\\DictioneryTest\\.local",
+      "projectPath": "C:\\Users\\ADMIN\\Documents\\UiPath_AllCode\\UiPathCode\\DictioneryTest\\.local",
       "packagesPath": "C:\\Users\\ADMIN\\.nuget\\packages\\",
-      "outputPath": "C:\\Users\\ADMIN\\Documents\\UiPath\\DictioneryTest\\.local"
+      "outputPath": "C:\\Users\\ADMIN\\Documents\\UiPath_AllCode\\UiPathCode\\DictioneryTest\\.local"
     },
     "frameworks": {
       "net461": {

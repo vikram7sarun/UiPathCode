@@ -7568,9 +7568,9 @@
     "restore": {
       "projectUniqueName": "LogActivityTest",
       "projectName": "LogActivityTest",
-      "projectPath": "C:\\Users\\ADMIN\\Documents\\UiPath\\LogActivityTest\\.local",
+      "projectPath": "C:\\Users\\ADMIN\\Documents\\UiPath_AllCode\\UiPathCode\\LogActivityTest\\.local",
       "packagesPath": "C:\\Users\\ADMIN\\.nuget\\packages\\",
-      "outputPath": "C:\\Users\\ADMIN\\Documents\\UiPath\\LogActivityTest\\.local"
+      "outputPath": "C:\\Users\\ADMIN\\Documents\\UiPath_AllCode\\UiPathCode\\LogActivityTest\\.local"
     },
     "frameworks": {
       "net461": {

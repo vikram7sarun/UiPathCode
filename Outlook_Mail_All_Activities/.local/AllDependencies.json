@@ -8171,9 +8171,9 @@
     "restore": {
       "projectUniqueName": "Outlook_Mail_All_Activities",
       "projectName": "Outlook_Mail_All_Activities",
-      "projectPath": "C:\\Users\\ADMIN\\Documents\\UiPath\\Outlook_Mail_All_Activities\\.local",
+      "projectPath": "C:\\Users\\ADMIN\\Documents\\UiPath_AllCode\\UiPathCode\\Outlook_Mail_All_Activities\\.local",
       "packagesPath": "C:\\Users\\ADMIN\\.nuget\\packages\\",
-      "outputPath": "C:\\Users\\ADMIN\\Documents\\UiPath\\Outlook_Mail_All_Activities\\.local"
+      "outputPath": "C:\\Users\\ADMIN\\Documents\\UiPath_AllCode\\UiPathCode\\Outlook_Mail_All_Activities\\.local"
     },
     "frameworks": {
       "net461": {

@@ -7568,9 +7568,9 @@
     "restore": {
       "projectUniqueName": "ComputerVisionTest",
       "projectName": "ComputerVisionTest",
-      "projectPath": "C:\\Users\\ADMIN\\Documents\\UiPath\\ComputerVisionTest\\.local",
+      "projectPath": "C:\\Users\\ADMIN\\Documents\\UiPath_AllCode\\UiPathCode\\ComputerVisionTest\\.local",
       "packagesPath": "C:\\Users\\ADMIN\\.nuget\\packages\\",
-      "outputPath": "C:\\Users\\ADMIN\\Documents\\UiPath\\ComputerVisionTest\\.local"
+      "outputPath": "C:\\Users\\ADMIN\\Documents\\UiPath_AllCode\\UiPathCode\\ComputerVisionTest\\.local"
     },
     "frameworks": {
       "net461": {

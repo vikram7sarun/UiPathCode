@@ -1,17 +1,18 @@
 {
-  "name": "TestAutomationProject",
+  "name": "TestAutomationProject1",
   "description": "Test Automation Project",
   "main": "Main.xaml",
   "dependencies": {
-    "UiPath.System.Activities": "[22.4.1]",
+    "UiPath.Python.Activities": "[1.6.0]",
+    "UiPath.System.Activities": "[22.4.4]",
     "UiPath.Testing.Activities": "[22.4.3]",
-    "UiPath.UIAutomation.Activities": "[22.4.5]"
+    "UiPath.UIAutomation.Activities": "[22.4.7]"
   },
   "webServices": [],
   "entitiesStores": [],
   "schemaVersion": "4.0",
-  "studioVersion": "22.4.3.0",
-  "projectVersion": "1.0.0",
+  "studioVersion": "22.4.4.0",
+  "projectVersion": "1.0.119281418",
   "runtimeOptions": {
     "autoDispose": false,
     "netFrameworkLazyLoading": false,
@@ -40,13 +41,44 @@
     },
     "fileInfoCollection": [
       {
-        "editingStatus": "InProgress",
-        "testCaseId": "8e80a00b-5dab-4b0c-aaaf-653360ad9a08",
+        "editingStatus": "Publishable",
+        "testCaseId": "aef10be9-a468-45f8-ba09-8a7fbec47116",
         "testCaseType": "TestCase",
-        "fileName": "TestCase.xaml"
+        "fileName": "TestCase1.xaml"
+      },
+      {
+        "editingStatus": "Publishable",
+        "testCaseId": "da086cdf-5528-4f05-a00b-993358fbff9b",
+        "testCaseType": "TestCase",
+        "fileName": "TestCase2.xaml"
+      },
+      {
+        "editingStatus": "Publishable",
+        "testCaseId": "d5c18712-ae49-4680-ba19-73196bd431d2",
+        "testCaseType": "TestCase",
+        "fileName": "TestCase3.xaml"
+      },
+      {
+        "editingStatus": "Publishable",
+        "testCaseId": "d52579d3-c5ae-4550-a5ef-657dd524f316",
+        "testCaseType": "TestCase",
+        "fileName": "LoginTestCase1.xaml"
+      },
+      {
+        "editingStatus": "Publishable",
+        "testCaseId": "9ca040f2-c991-488d-ab14-fd7a1c0b0b13",
+        "dataVariationFilePath": ".variations\\TestData_Sheet1.json",
+        "testCaseType": "TestCase",
+        "fileName": "DataDrivenTestCase1.xaml"
+      },
+      {
+        "editingStatus": "Publishable",
+        "testCaseId": "cc43f34f-e2d4-4156-bc36-0088d3bb4898",
+        "testCaseType": "TestCase",
+        "fileName": "SampleTest_TestCase.xaml"
       }
     ],
-    "modernBehavior": false
+    "modernBehavior": true
   },
   "expressionLanguage": "VisualBasic",
   "isTemplate": false,

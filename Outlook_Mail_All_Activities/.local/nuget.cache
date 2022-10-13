@@ -1,8 +1,8 @@
 {
   "version": 2,
-  "dgSpecHash": "ePIp2BS5bEYBUq1hC3azg8m55N9XOqxTh1VhAZNiqC5buX/YoOsQoiKe92c1h822UmnAgBLea6S4Ys4MwMToYA==",
+  "dgSpecHash": "pGGbbLgULJrV5Vn2ldt7v/MnXwqe9dpB2MLvy56af+Y6MIfc3bI9u7R6qGVkVVGNBVQ1ymON1GnbGo0V8fcKow==",
   "success": true,
-  "projectFilePath": "C:\\Users\\ADMIN\\Documents\\UiPath\\Outlook_Mail_All_Activities\\.local\\",
+  "projectFilePath": "C:\\Users\\ADMIN\\Documents\\UiPath_AllCode\\UiPathCode\\Outlook_Mail_All_Activities\\.local\\",
   "expectedPackageFiles": [
     "C:\\Users\\ADMIN\\.nuget\\packages\\bitmiracle.docotic.pdf\\7.5.11645\\bitmiracle.docotic.pdf.7.5.11645.nupkg.sha512",
     "C:\\Users\\ADMIN\\.nuget\\packages\\closedxml\\0.87.1\\closedxml.0.87.1.nupkg.sha512",

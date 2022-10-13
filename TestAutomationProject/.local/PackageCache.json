@@ -2,8 +2,20 @@
   "Packages": [
     {
       "Package": {
+        "Id": "UiPath.Python.Activities",
+        "Version": "1.6.0"
+      },
+      "Assemblies": [
+        "C:\\Users\\ADMIN\\.nuget\\packages\\uipath.python.activities\\1.6.0\\lib/net461/UiPath.Python.Activities.Design.dll",
+        "C:\\Users\\ADMIN\\.nuget\\packages\\uipath.python.activities\\1.6.0\\lib/net461/UiPath.Python.Activities.dll",
+        "C:\\Users\\ADMIN\\.nuget\\packages\\uipath.python.activities\\1.6.0\\lib/net461/UiPath.Python.dll"
+      ],
+      "Path": "C:\\Users\\ADMIN\\.nuget\\packages\\uipath.python.activities\\1.6.0"
+    },
+    {
+      "Package": {
         "Id": "UiPath.System.Activities",
-        "Version": "22.4.1"
+        "Version": "22.4.4"
       },
       "Assemblies": [
         "C:\\Users\\ADMIN\\.nuget\\packages\\csvhelper\\16.0.0\\lib/net45/CsvHelper.dll",
@@ -50,12 +62,12 @@
         "C:\\Users\\ADMIN\\.nuget\\packages\\system.threading.tasks.extensions\\4.5.4\\lib/net461/System.Threading.Tasks.Extensions.dll",
         "C:\\Users\\ADMIN\\.nuget\\packages\\system.valuetuple\\4.5.0\\lib/net461/System.ValueTuple.dll",
         "C:\\Users\\ADMIN\\.nuget\\packages\\uipath.platform\\22.4.1\\lib/net461/UiPath.Platform.dll",
-        "C:\\Users\\ADMIN\\.nuget\\packages\\uipath.system.activities\\22.4.1\\lib/net461/UiPath.OrchestratorClient.dll",
-        "C:\\Users\\ADMIN\\.nuget\\packages\\uipath.system.activities\\22.4.1\\lib/net461/UiPath.System.Activities.Design.dll",
-        "C:\\Users\\ADMIN\\.nuget\\packages\\uipath.system.activities\\22.4.1\\lib/net461/UiPath.System.Activities.dll",
+        "C:\\Users\\ADMIN\\.nuget\\packages\\uipath.system.activities\\22.4.4\\lib/net461/UiPath.OrchestratorClient.dll",
+        "C:\\Users\\ADMIN\\.nuget\\packages\\uipath.system.activities\\22.4.4\\lib/net461/UiPath.System.Activities.Design.dll",
+        "C:\\Users\\ADMIN\\.nuget\\packages\\uipath.system.activities\\22.4.4\\lib/net461/UiPath.System.Activities.dll",
         "C:\\Users\\ADMIN\\.nuget\\packages\\uipath.telemetry.client\\1.5.3\\lib/net461/TelemetryClient.dll"
       ],
-      "Path": "C:\\Users\\ADMIN\\.nuget\\packages\\uipath.system.activities\\22.4.1"
+      "Path": "C:\\Users\\ADMIN\\.nuget\\packages\\uipath.system.activities\\22.4.4"
     },
     {
       "Package": {
@@ -75,15 +87,15 @@
         "C:\\Users\\ADMIN\\.nuget\\packages\\uipath.telemetry.client\\1.5.3\\lib/net461/TelemetryClient.dll",
         "C:\\Users\\ADMIN\\.nuget\\packages\\uipath.testing.activities\\22.4.3\\lib/net461/UiPath.Testing.Activities.Design.dll",
         "C:\\Users\\ADMIN\\.nuget\\packages\\uipath.testing.activities\\22.4.3\\lib/net461/UiPath.Testing.Activities.dll",
-        "C:\\Users\\ADMIN\\.nuget\\packages\\uipath.testing.activities\\22.4.3\\lib/net461/UiPath.Testing.dll",
-        "C:\\Users\\ADMIN\\.nuget\\packages\\uipath.testing.activities\\22.4.3\\lib/net461/UiPath.Testing.RulesLibrary.dll"
+        "C:\\Users\\ADMIN\\.nuget\\packages\\uipath.testing.activities\\22.4.3\\lib/net461/UiPath.Testing.RulesLibrary.dll",
+        "C:\\Users\\ADMIN\\.nuget\\packages\\uipath.testing.activities\\22.4.3\\lib/net461/UiPath.Testing.dll"
       ],
       "Path": "C:\\Users\\ADMIN\\.nuget\\packages\\uipath.testing.activities\\22.4.3"
     },
     {
       "Package": {
         "Id": "UiPath.UIAutomation.Activities",
-        "Version": "22.4.5"
+        "Version": "22.4.7"
       },
       "Assemblies": [
         "C:\\Users\\ADMIN\\.nuget\\packages\\microsoft.azure.cognitiveservices.vision.computervision\\7.0.1\\lib/net461/Microsoft.Azure.CognitiveServices.Vision.ComputerVision.dll",
@@ -100,7 +112,7 @@
         "C:\\Users\\ADMIN\\.nuget\\packages\\system.runtime.compilerservices.unsafe\\4.7.1\\lib/net461/System.Runtime.CompilerServices.Unsafe.dll",
         "C:\\Users\\ADMIN\\.nuget\\packages\\system.threading.tasks.dataflow\\5.0.0\\lib/net461/System.Threading.Tasks.Dataflow.dll",
         "C:\\Users\\ADMIN\\.nuget\\packages\\system.valuetuple\\4.5.0\\lib/net461/System.ValueTuple.dll",
-        "C:\\Users\\ADMIN\\.nuget\\packages\\uipath\\22.4.38.42025\\lib/net45/UiPath.Interop.dll",
+        "C:\\Users\\ADMIN\\.nuget\\packages\\uipath\\22.4.42.61951\\lib/net45/UiPath.Interop.dll",
         "C:\\Users\\ADMIN\\.nuget\\packages\\uipath.activities.runtimegovernance\\1.1.3\\lib/net461/UiPath.Activities.RuntimeGovernance.dll",
         "C:\\Users\\ADMIN\\.nuget\\packages\\uipath.imageprocessing\\22.4.1\\lib/net461/UiPath.ImageProcessingInterop.dll",
         "C:\\Users\\ADMIN\\.nuget\\packages\\uipath.ocr.activities\\3.6.2\\lib/net461/UiPath.OCR.Activities.Design.dll",
@@ -109,24 +121,24 @@
         "C:\\Users\\ADMIN\\.nuget\\packages\\uipath.ocr.contracts\\2.11.0\\lib/net461/UiPath.OCR.Contracts.dll",
         "C:\\Users\\ADMIN\\.nuget\\packages\\uipath.platform\\22.4.1\\lib/net461/UiPath.Platform.dll",
         "C:\\Users\\ADMIN\\.nuget\\packages\\uipath.telemetry.client\\1.5.3\\lib/net461/TelemetryClient.dll",
-        "C:\\Users\\ADMIN\\.nuget\\packages\\uipath.uiautomation.activities\\22.4.5\\lib/net461/UiPath.CV.Activities.Design.dll",
-        "C:\\Users\\ADMIN\\.nuget\\packages\\uipath.uiautomation.activities\\22.4.5\\lib/net461/UiPath.CV.Activities.dll",
-        "C:\\Users\\ADMIN\\.nuget\\packages\\uipath.uiautomation.activities\\22.4.5\\lib/net461/UiPath.CV.dll",
-        "C:\\Users\\ADMIN\\.nuget\\packages\\uipath.uiautomation.activities\\22.4.5\\lib/net461/UiPath.UIAutomation.Activities.Design.dll",
-        "C:\\Users\\ADMIN\\.nuget\\packages\\uipath.uiautomation.activities\\22.4.5\\lib/net461/UiPath.UiAutomation.Activities.dll",
-        "C:\\Users\\ADMIN\\.nuget\\packages\\uipath.uiautomation.activities\\22.4.5\\lib/net461/UiPath.UIAutomationCore.dll",
-        "C:\\Users\\ADMIN\\.nuget\\packages\\uipath.uiautomation.activities\\22.4.5\\lib/net461/UiPath.UIAutomationNext.Activities.Design.dll",
-        "C:\\Users\\ADMIN\\.nuget\\packages\\uipath.uiautomation.activities\\22.4.5\\lib/net461/UiPath.UIAutomationNext.Activities.dll",
-        "C:\\Users\\ADMIN\\.nuget\\packages\\uipath.uiautomation.activities\\22.4.5\\lib/net461/UiPath.UIAutomationNext.dll",
-        "C:\\Users\\ADMIN\\.nuget\\packages\\uipath.uiautomation.activities\\22.4.5\\lib/net461/UiPath.Wizards.dll",
+        "C:\\Users\\ADMIN\\.nuget\\packages\\uipath.uiautomation.activities\\22.4.7\\lib/net461/UiPath.CV.Activities.Design.dll",
+        "C:\\Users\\ADMIN\\.nuget\\packages\\uipath.uiautomation.activities\\22.4.7\\lib/net461/UiPath.CV.Activities.dll",
+        "C:\\Users\\ADMIN\\.nuget\\packages\\uipath.uiautomation.activities\\22.4.7\\lib/net461/UiPath.CV.dll",
+        "C:\\Users\\ADMIN\\.nuget\\packages\\uipath.uiautomation.activities\\22.4.7\\lib/net461/UiPath.UIAutomation.Activities.Design.dll",
+        "C:\\Users\\ADMIN\\.nuget\\packages\\uipath.uiautomation.activities\\22.4.7\\lib/net461/UiPath.UIAutomationCore.dll",
+        "C:\\Users\\ADMIN\\.nuget\\packages\\uipath.uiautomation.activities\\22.4.7\\lib/net461/UiPath.UIAutomationNext.Activities.Design.dll",
+        "C:\\Users\\ADMIN\\.nuget\\packages\\uipath.uiautomation.activities\\22.4.7\\lib/net461/UiPath.UIAutomationNext.Activities.dll",
+        "C:\\Users\\ADMIN\\.nuget\\packages\\uipath.uiautomation.activities\\22.4.7\\lib/net461/UiPath.UIAutomationNext.dll",
+        "C:\\Users\\ADMIN\\.nuget\\packages\\uipath.uiautomation.activities\\22.4.7\\lib/net461/UiPath.UiAutomation.Activities.dll",
+        "C:\\Users\\ADMIN\\.nuget\\packages\\uipath.uiautomation.activities\\22.4.7\\lib/net461/UiPath.Wizards.dll",
         "C:\\Users\\ADMIN\\.nuget\\packages\\uipath.vision\\3.3.0\\lib/net461/UiPath.Vision.AzureComputerVision.dll",
         "C:\\Users\\ADMIN\\.nuget\\packages\\uipath.vision\\3.3.0\\lib/net461/UiPath.Vision.Core.dll",
-        "C:\\Users\\ADMIN\\.nuget\\packages\\uipath.vision\\3.3.0\\lib/net461/UiPath.Vision.dll",
         "C:\\Users\\ADMIN\\.nuget\\packages\\uipath.vision\\3.3.0\\lib/net461/UiPath.Vision.GoogleCloud.dll",
         "C:\\Users\\ADMIN\\.nuget\\packages\\uipath.vision\\3.3.0\\lib/net461/UiPath.Vision.Microsoft.dll",
-        "C:\\Users\\ADMIN\\.nuget\\packages\\uipath.vision\\3.3.0\\lib/net461/UiPath.Vision.Tesseract.dll"
+        "C:\\Users\\ADMIN\\.nuget\\packages\\uipath.vision\\3.3.0\\lib/net461/UiPath.Vision.Tesseract.dll",
+        "C:\\Users\\ADMIN\\.nuget\\packages\\uipath.vision\\3.3.0\\lib/net461/UiPath.Vision.dll"
       ],
-      "Path": "C:\\Users\\ADMIN\\.nuget\\packages\\uipath.uiautomation.activities\\22.4.5"
+      "Path": "C:\\Users\\ADMIN\\.nuget\\packages\\uipath.uiautomation.activities\\22.4.7"
     }
   ],
   "Conflicts": [],
@@ -721,7 +733,7 @@
     },
     "UiPath": {
       "Id": "UiPath",
-      "Version": "22.4.38.42025",
+      "Version": "22.4.42.61951",
       "Dependencies": []
     },
     "UiPath.Activities.RuntimeGovernance": {
@@ -800,9 +812,14 @@
         }
       ]
     },
+    "UiPath.Python.Activities": {
+      "Id": "UiPath.Python.Activities",
+      "Version": "1.6.0",
+      "Dependencies": []
+    },
     "UiPath.System.Activities": {
       "Id": "UiPath.System.Activities",
-      "Version": "22.4.1",
+      "Version": "22.4.4",
       "Dependencies": [
         {
           "Item1": "CsvHelper",
@@ -912,11 +929,11 @@
     },
     "UiPath.UIAutomation.Activities": {
       "Id": "UiPath.UIAutomation.Activities",
-      "Version": "22.4.5",
+      "Version": "22.4.7",
       "Dependencies": [
         {
           "Item1": "UiPath",
-          "Item2": "[22.4.38.42025, 22.4.38.42025]"
+          "Item2": "[22.4.42.61951, 22.4.42.61951]"
         },
         {
           "Item1": "UiPath.Vision",
@@ -1479,12 +1496,12 @@
     {
       "Package": {
         "Id": "UiPath",
-        "Version": "22.4.38.42025"
+        "Version": "22.4.42.61951"
       },
       "Assemblies": [
-        "C:\\Users\\ADMIN\\.nuget\\packages\\uipath\\22.4.38.42025\\lib\\net45\\UiPath.Interop.dll"
+        "C:\\Users\\ADMIN\\.nuget\\packages\\uipath\\22.4.42.61951\\lib\\net45\\UiPath.Interop.dll"
       ],
-      "Path": "C:\\Users\\ADMIN\\.nuget\\packages\\uipath\\22.4.38.42025"
+      "Path": "C:\\Users\\ADMIN\\.nuget\\packages\\uipath\\22.4.42.61951"
     },
     {
       "Package": {
@@ -1540,15 +1557,27 @@
     },
     {
       "Package": {
-        "Id": "UiPath.System.Activities",
-        "Version": "22.4.1"
+        "Id": "UiPath.Python.Activities",
+        "Version": "1.6.0"
       },
       "Assemblies": [
-        "C:\\Users\\ADMIN\\.nuget\\packages\\uipath.system.activities\\22.4.1\\lib\\net461\\UiPath.OrchestratorClient.dll",
-        "C:\\Users\\ADMIN\\.nuget\\packages\\uipath.system.activities\\22.4.1\\lib\\net461\\UiPath.System.Activities.Design.dll",
-        "C:\\Users\\ADMIN\\.nuget\\packages\\uipath.system.activities\\22.4.1\\lib\\net461\\UiPath.System.Activities.dll"
+        "C:\\Users\\ADMIN\\.nuget\\packages\\uipath.python.activities\\1.6.0\\lib\\net461\\UiPath.Python.Activities.Design.dll",
+        "C:\\Users\\ADMIN\\.nuget\\packages\\uipath.python.activities\\1.6.0\\lib\\net461\\UiPath.Python.Activities.dll",
+        "C:\\Users\\ADMIN\\.nuget\\packages\\uipath.python.activities\\1.6.0\\lib\\net461\\UiPath.Python.dll"
       ],
-      "Path": "C:\\Users\\ADMIN\\.nuget\\packages\\uipath.system.activities\\22.4.1"
+      "Path": "C:\\Users\\ADMIN\\.nuget\\packages\\uipath.python.activities\\1.6.0"
+    },
+    {
+      "Package": {
+        "Id": "UiPath.System.Activities",
+        "Version": "22.4.4"
+      },
+      "Assemblies": [
+        "C:\\Users\\ADMIN\\.nuget\\packages\\uipath.system.activities\\22.4.4\\lib\\net461\\UiPath.OrchestratorClient.dll",
+        "C:\\Users\\ADMIN\\.nuget\\packages\\uipath.system.activities\\22.4.4\\lib\\net461\\UiPath.System.Activities.Design.dll",
+        "C:\\Users\\ADMIN\\.nuget\\packages\\uipath.system.activities\\22.4.4\\lib\\net461\\UiPath.System.Activities.dll"
+      ],
+      "Path": "C:\\Users\\ADMIN\\.nuget\\packages\\uipath.system.activities\\22.4.4"
     },
     {
       "Package": {
@@ -1568,29 +1597,29 @@
       "Assemblies": [
         "C:\\Users\\ADMIN\\.nuget\\packages\\uipath.testing.activities\\22.4.3\\lib\\net461\\UiPath.Testing.Activities.Design.dll",
         "C:\\Users\\ADMIN\\.nuget\\packages\\uipath.testing.activities\\22.4.3\\lib\\net461\\UiPath.Testing.Activities.dll",
-        "C:\\Users\\ADMIN\\.nuget\\packages\\uipath.testing.activities\\22.4.3\\lib\\net461\\UiPath.Testing.dll",
-        "C:\\Users\\ADMIN\\.nuget\\packages\\uipath.testing.activities\\22.4.3\\lib\\net461\\UiPath.Testing.RulesLibrary.dll"
+        "C:\\Users\\ADMIN\\.nuget\\packages\\uipath.testing.activities\\22.4.3\\lib\\net461\\UiPath.Testing.RulesLibrary.dll",
+        "C:\\Users\\ADMIN\\.nuget\\packages\\uipath.testing.activities\\22.4.3\\lib\\net461\\UiPath.Testing.dll"
       ],
       "Path": "C:\\Users\\ADMIN\\.nuget\\packages\\uipath.testing.activities\\22.4.3"
     },
     {
       "Package": {
         "Id": "UiPath.UIAutomation.Activities",
-        "Version": "22.4.5"
+        "Version": "22.4.7"
       },
       "Assemblies": [
-        "C:\\Users\\ADMIN\\.nuget\\packages\\uipath.uiautomation.activities\\22.4.5\\lib\\net461\\UiPath.CV.Activities.Design.dll",
-        "C:\\Users\\ADMIN\\.nuget\\packages\\uipath.uiautomation.activities\\22.4.5\\lib\\net461\\UiPath.CV.Activities.dll",
-        "C:\\Users\\ADMIN\\.nuget\\packages\\uipath.uiautomation.activities\\22.4.5\\lib\\net461\\UiPath.CV.dll",
-        "C:\\Users\\ADMIN\\.nuget\\packages\\uipath.uiautomation.activities\\22.4.5\\lib\\net461\\UiPath.UIAutomation.Activities.Design.dll",
-        "C:\\Users\\ADMIN\\.nuget\\packages\\uipath.uiautomation.activities\\22.4.5\\lib\\net461\\UiPath.UiAutomation.Activities.dll",
-        "C:\\Users\\ADMIN\\.nuget\\packages\\uipath.uiautomation.activities\\22.4.5\\lib\\net461\\UiPath.UIAutomationCore.dll",
-        "C:\\Users\\ADMIN\\.nuget\\packages\\uipath.uiautomation.activities\\22.4.5\\lib\\net461\\UiPath.UIAutomationNext.Activities.Design.dll",
-        "C:\\Users\\ADMIN\\.nuget\\packages\\uipath.uiautomation.activities\\22.4.5\\lib\\net461\\UiPath.UIAutomationNext.Activities.dll",
-        "C:\\Users\\ADMIN\\.nuget\\packages\\uipath.uiautomation.activities\\22.4.5\\lib\\net461\\UiPath.UIAutomationNext.dll",
-        "C:\\Users\\ADMIN\\.nuget\\packages\\uipath.uiautomation.activities\\22.4.5\\lib\\net461\\UiPath.Wizards.dll"
+        "C:\\Users\\ADMIN\\.nuget\\packages\\uipath.uiautomation.activities\\22.4.7\\lib\\net461\\UiPath.CV.Activities.Design.dll",
+        "C:\\Users\\ADMIN\\.nuget\\packages\\uipath.uiautomation.activities\\22.4.7\\lib\\net461\\UiPath.CV.Activities.dll",
+        "C:\\Users\\ADMIN\\.nuget\\packages\\uipath.uiautomation.activities\\22.4.7\\lib\\net461\\UiPath.CV.dll",
+        "C:\\Users\\ADMIN\\.nuget\\packages\\uipath.uiautomation.activities\\22.4.7\\lib\\net461\\UiPath.UIAutomation.Activities.Design.dll",
+        "C:\\Users\\ADMIN\\.nuget\\packages\\uipath.uiautomation.activities\\22.4.7\\lib\\net461\\UiPath.UIAutomationCore.dll",
+        "C:\\Users\\ADMIN\\.nuget\\packages\\uipath.uiautomation.activities\\22.4.7\\lib\\net461\\UiPath.UIAutomationNext.Activities.Design.dll",
+        "C:\\Users\\ADMIN\\.nuget\\packages\\uipath.uiautomation.activities\\22.4.7\\lib\\net461\\UiPath.UIAutomationNext.Activities.dll",
+        "C:\\Users\\ADMIN\\.nuget\\packages\\uipath.uiautomation.activities\\22.4.7\\lib\\net461\\UiPath.UIAutomationNext.dll",
+        "C:\\Users\\ADMIN\\.nuget\\packages\\uipath.uiautomation.activities\\22.4.7\\lib\\net461\\UiPath.UiAutomation.Activities.dll",
+        "C:\\Users\\ADMIN\\.nuget\\packages\\uipath.uiautomation.activities\\22.4.7\\lib\\net461\\UiPath.Wizards.dll"
       ],
-      "Path": "C:\\Users\\ADMIN\\.nuget\\packages\\uipath.uiautomation.activities\\22.4.5"
+      "Path": "C:\\Users\\ADMIN\\.nuget\\packages\\uipath.uiautomation.activities\\22.4.7"
     },
     {
       "Package": {
@@ -1600,10 +1629,10 @@
       "Assemblies": [
         "C:\\Users\\ADMIN\\.nuget\\packages\\uipath.vision\\3.3.0\\lib\\net461\\UiPath.Vision.AzureComputerVision.dll",
         "C:\\Users\\ADMIN\\.nuget\\packages\\uipath.vision\\3.3.0\\lib\\net461\\UiPath.Vision.Core.dll",
-        "C:\\Users\\ADMIN\\.nuget\\packages\\uipath.vision\\3.3.0\\lib\\net461\\UiPath.Vision.dll",
         "C:\\Users\\ADMIN\\.nuget\\packages\\uipath.vision\\3.3.0\\lib\\net461\\UiPath.Vision.GoogleCloud.dll",
         "C:\\Users\\ADMIN\\.nuget\\packages\\uipath.vision\\3.3.0\\lib\\net461\\UiPath.Vision.Microsoft.dll",
-        "C:\\Users\\ADMIN\\.nuget\\packages\\uipath.vision\\3.3.0\\lib\\net461\\UiPath.Vision.Tesseract.dll"
+        "C:\\Users\\ADMIN\\.nuget\\packages\\uipath.vision\\3.3.0\\lib\\net461\\UiPath.Vision.Tesseract.dll",
+        "C:\\Users\\ADMIN\\.nuget\\packages\\uipath.vision\\3.3.0\\lib\\net461\\UiPath.Vision.dll"
       ],
       "Path": "C:\\Users\\ADMIN\\.nuget\\packages\\uipath.vision\\3.3.0"
     }

@@ -9847,9 +9847,9 @@
     "restore": {
       "projectUniqueName": "RoboticEnterpriseFrameworkTest",
       "projectName": "RoboticEnterpriseFrameworkTest",
-      "projectPath": "C:\\Users\\ADMIN\\Documents\\UiPath\\RoboticEnterpriseFrameworkTest\\.local",
+      "projectPath": "C:\\Users\\ADMIN\\Documents\\UiPath_AllCode\\UiPathCode\\RoboticEnterpriseFrameworkTest\\.local",
       "packagesPath": "C:\\Users\\ADMIN\\.nuget\\packages\\",
-      "outputPath": "C:\\Users\\ADMIN\\Documents\\UiPath\\RoboticEnterpriseFrameworkTest\\.local"
+      "outputPath": "C:\\Users\\ADMIN\\Documents\\UiPath_AllCode\\UiPathCode\\RoboticEnterpriseFrameworkTest\\.local"
     },
     "frameworks": {
       "net461": {

@@ -1,3 +1,9 @@
 {
-  "issueKeyTestcaseValues": {}
+  "issueKeyTestcaseValues": {},
+  "testManagerBasePath": "https://cloud.uipath.com/fmrxnqhdbl/DefaultTenant/testmanager_",
+  "defaultProject": {
+    "id": "aa1be819-ba0f-0000-d5d4-0b445ea510cc",
+    "name": "TestProject1",
+    "key": "TESTPROJECT"
+  }
 }

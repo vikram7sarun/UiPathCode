@@ -1,4 +1,4 @@
-<Activity mc:Ignorable="sap sap2010" x:Class="Main" mva:VisualBasic.Settings="{x:Null}" sap:VirtualizedContainerService.HintSize="1075,651" sap2010:WorkflowViewState.IdRef="ActivityBuilder_1" xmlns="http://schemas.microsoft.com/netfx/2009/xaml/activities" xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006" xmlns:mva="clr-namespace:Microsoft.VisualBasic.Activities;assembly=System.Activities" xmlns:p="http://schemas.uipath.com/workflow/activities/cv" xmlns:sap="http://schemas.microsoft.com/netfx/2009/xaml/activities/presentation" xmlns:sap2010="http://schemas.microsoft.com/netfx/2010/xaml/activities/presentation" xmlns:scg="clr-namespace:System.Collections.Generic;assembly=mscorlib" xmlns:sco="clr-namespace:System.Collections.ObjectModel;assembly=mscorlib" xmlns:sd="clr-namespace:System.Drawing;assembly=System.Drawing" xmlns:uc="clr-namespace:UiPath.CV;assembly=UiPath.CV" xmlns:ui="http://schemas.uipath.com/workflow/activities" xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml">
+<Activity mc:Ignorable="sap sap2010" x:Class="Main" mva:VisualBasic.Settings="{x:Null}" sap:VirtualizedContainerService.HintSize="872,813" sap2010:WorkflowViewState.IdRef="ActivityBuilder_1" xmlns="http://schemas.microsoft.com/netfx/2009/xaml/activities" xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006" xmlns:mva="clr-namespace:Microsoft.VisualBasic.Activities;assembly=System.Activities" xmlns:p="http://schemas.uipath.com/workflow/activities/cv" xmlns:sap="http://schemas.microsoft.com/netfx/2009/xaml/activities/presentation" xmlns:sap2010="http://schemas.microsoft.com/netfx/2010/xaml/activities/presentation" xmlns:scg="clr-namespace:System.Collections.Generic;assembly=mscorlib" xmlns:sco="clr-namespace:System.Collections.ObjectModel;assembly=mscorlib" xmlns:sd="clr-namespace:System.Drawing;assembly=System.Drawing" xmlns:uc="clr-namespace:UiPath.CV;assembly=UiPath.CV" xmlns:ui="http://schemas.uipath.com/workflow/activities" xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml">
   <TextExpression.NamespacesForImplementation>
     <sco:Collection x:TypeArguments="x:String">
       <x:String>System.Activities</x:String>
@@ -38,6 +38,13 @@
       <x:String>UiPath.OCR.Contracts.Activities</x:String>
       <x:String>UiPath.Core.Activities.OCR.Engines</x:String>
       <x:String>UiPath.CV.Activities.Interfaces</x:String>
+      <x:String>UiPath.UIAutomationNext.Enums</x:String>
+      <x:String>UiPath.UIAutomationNext.Activities</x:String>
+      <x:String>UiPath.Platform.ObjectLibrary</x:String>
+      <x:String>System.ComponentModel</x:String>
+      <x:String>System.Xml.Serialization</x:String>
+      <x:String>UiPath.Excel</x:String>
+      <x:String>UiPath.Excel.Activities</x:String>
     </sco:Collection>
   </TextExpression.NamespacesForImplementation>
   <TextExpression.ReferencesForImplementation>
@@ -70,22 +77,55 @@
       <AssemblyReference>UiPath.OCR.Contracts</AssemblyReference>
       <AssemblyReference>System.Reflection.Metadata</AssemblyReference>
       <AssemblyReference>System.Memory</AssemblyReference>
+      <AssemblyReference>UiPath.UIAutomationNext</AssemblyReference>
+      <AssemblyReference>UiPath.UIAutomationNext.Activities</AssemblyReference>
+      <AssemblyReference>UiPath.Platform</AssemblyReference>
+      <AssemblyReference>System.ServiceModel</AssemblyReference>
+      <AssemblyReference>Microsoft.Bcl.AsyncInterfaces</AssemblyReference>
+      <AssemblyReference>System.ValueTuple</AssemblyReference>
+      <AssemblyReference>System.ComponentModel.Composition</AssemblyReference>
+      <AssemblyReference>UiPath.Excel</AssemblyReference>
+      <AssemblyReference>System.Runtime.WindowsRuntime</AssemblyReference>
+      <AssemblyReference>UiPath.System.Activities.Design</AssemblyReference>
+      <AssemblyReference>UiPath.Excel.Activities.Design</AssemblyReference>
     </sco:Collection>
   </TextExpression.ReferencesForImplementation>
-  <Sequence sap:VirtualizedContainerService.HintSize="476,539" sap2010:WorkflowViewState.IdRef="Sequence_2">
+  <Sequence sap:VirtualizedContainerService.HintSize="376,251" sap2010:WorkflowViewState.IdRef="Sequence_2">
     <sap:WorkflowViewStateService.ViewState>
       <scg:Dictionary x:TypeArguments="x:String, x:Object">
         <x:Boolean x:Key="IsExpanded">True</x:Boolean>
       </scg:Dictionary>
     </sap:WorkflowViewStateService.ViewState>
-    <p:CVScope ContinueOnError="{x:Null}" DelayBefore="{x:Null}" ApiKey="vrmXpoT2honVbZUSUuDZigIVV01PtXPFNWaue379sAD4XrWYPpG4pero1MWITPQlwwo1TOyAyp8Q/anWk0JfDw==" CvMethod="ElementDetection, OCR" DesignTimeCacheId="f1faf349-3765-43a4-9ccd-9aea84c1ffd1" DisplayName="CV Screen Scope 'text 2022-01-23'" sap:VirtualizedContainerService.HintSize="434,447" sap2010:WorkflowViewState.IdRef="CVScope_1" Server="https://cv.uipath.com" Version="V3">
+    <ui:Click AlterIfDisabled="{x:Null}" DelayBefore="{x:Null}" DelayMS="{x:Null}" SendWindowMessages="{x:Null}" SimulateClick="{x:Null}" ClickType="CLICK_SINGLE" sap:VirtualizedContainerService.HintSize="334,68" sap2010:WorkflowViewState.IdRef="Click_1" KeyModifiers="None" MouseButton="BTN_LEFT">
+      <ui:Click.CursorPosition>
+        <ui:CursorPosition Position="Center">
+          <ui:CursorPosition.OffsetX>
+            <InArgument x:TypeArguments="x:Int32" />
+          </ui:CursorPosition.OffsetX>
+          <ui:CursorPosition.OffsetY>
+            <InArgument x:TypeArguments="x:Int32" />
+          </ui:CursorPosition.OffsetY>
+        </ui:CursorPosition>
+      </ui:Click.CursorPosition>
+      <ui:Click.Target>
+        <ui:Target ClippingRegion="{x:Null}" Element="{x:Null}" Selector="{x:Null}" Id="d9ad111a-8073-46d7-b918-0fbf6444640b">
+          <ui:Target.TimeoutMS>
+            <InArgument x:TypeArguments="x:Int32" />
+          </ui:Target.TimeoutMS>
+          <ui:Target.WaitForReady>
+            <InArgument x:TypeArguments="ui:WaitForReady" />
+          </ui:Target.WaitForReady>
+        </ui:Target>
+      </ui:Click.Target>
+    </ui:Click>
+    <p:CVScope ContinueOnError="{x:Null}" DelayBefore="{x:Null}" ApiKey="vrmXpoT2honVbZUSUuDZigIVV01PtXPFNWaue379sAD4XrWYPpG4pero1MWITPQlwwo1TOyAyp8Q/anWk0JfDw==" CvMethod="ElementDetection, OCR" DesignTimeCacheId="f1faf349-3765-43a4-9ccd-9aea84c1ffd1" DisplayName="CV Screen Scope 'text 2022-01-23'" sap:VirtualizedContainerService.HintSize="334,51" sap2010:WorkflowViewState.IdRef="CVScope_1" Server="https://cv.uipath.com" Version="V3">
       <p:CVScope.Body>
         <ActivityAction x:TypeArguments="x:Object">
           <ActivityAction.Argument>
             <DelegateInArgument x:TypeArguments="x:Object" Name="CVSessionData" />
           </ActivityAction.Argument>
           <Sequence DisplayName="Do" sap2010:WorkflowViewState.IdRef="Sequence_1">
-            <p:CvHighlightWithDescriptor Color="Red" Descriptor="[&quot;Target: InputBox (937,269,172,34)&quot; +&#xD;&#xA;&quot;Anchor: Text 'Cash In' (844,277,68,15)&quot;]" DesignTimeCacheId="f1faf349-3765-43a4-9ccd-9aea84c1ffd1" DesignTimeScaleFactor="1" DisplayName="CV Highlight - InputBox" HighlightTime="10000" sap:VirtualizedContainerService.HintSize="400,136" sap2010:WorkflowViewState.IdRef="CvHighlightWithDescriptor_1" InformativeScreenshot="440857f7b55f5ab92cbc746ace440e32" Version="V3">
+            <p:CvHighlightWithDescriptor Color="Red" Descriptor="[&quot;Target: InputBox (937,269,172,34)&quot; +&#xA;&quot;Anchor: Text 'Cash In' (844,277,68,15)&quot;]" DesignTimeCacheId="f1faf349-3765-43a4-9ccd-9aea84c1ffd1" DesignTimeScaleFactor="1" DisplayName="CV Highlight - InputBox" HighlightTime="10000" sap:VirtualizedContainerService.HintSize="400,136" sap2010:WorkflowViewState.IdRef="CvHighlightWithDescriptor_1" InformativeScreenshot="440857f7b55f5ab92cbc746ace440e32" Version="V3">
               <p:CvHighlightWithDescriptor.DesignTimeDescriptor>
                 <uc:CvDescriptor>
                   <uc:CvDescriptor.Anchors>
@@ -112,11 +152,14 @@
           </Sequence>
         </ActivityAction>
       </p:CVScope.Body>
+      <p:CVScope.DesignTimeCache>
+        <uc:CVCache CvUiElements="{x:Null}" OcrTexts="{x:Null}" />
+      </p:CVScope.DesignTimeCache>
       <p:CVScope.DesignTimeCacheContainer>
         <uc:CvCacheContainer>
           <uc:CvCacheContainer.Caches>
             <scg:List x:TypeArguments="uc:CVCache" Capacity="1">
-              <uc:CVCache DisplayName="Screen CV Highlight - 'Cash In (Main)" Id="f1faf349-3765-43a4-9ccd-9aea84c1ffd1" InformativeScreenshot="919a7a95e252c3cabf3ba39209cd5bd9" LogicalPosition="32, 80" OcrText="3 UiDemo : | = [3 pote 4&#xD;&#xA;| 09/29/2020 nN UiPath otgs1AM [oo&#xD;&#xA;n Transaction _ _ ——&#xD;&#xA;2 © Deposit Deposit transaction&#xD;&#xA;T QO Withdrawal Account #: 423605595 Transaction #: 430276 Ee&#xD;&#xA;- QO Split Deposit&#xD;&#xA;Configuration Cash In $400.00 | Cash Count ]&#xD;&#xA;IM Use Cash Count&#xD;&#xA;Alf |&#xD;&#xA;@usepiece&#xD;&#xA;count On Us Check $500.00&#xD;&#xA;i O Use Amount i&#xD;&#xA;O Use Both Not On Us Check | 6] al&#xD;&#xA;- J Reverse Denomination i&#xD;&#xA;e 7] Eliminate $2 i&#xD;&#xA;vi Scale&#xD;&#xA;) —(— Total deposit $900.00 =&#xD;&#xA;. Graphical label Type | Amount’&#xD;&#xA;; Enable training tip [cash [000 |&#xD;&#xA;: Enable 2dditional icon credo _| i&#xD;&#xA;Change window title |&#xD;&#xA;[E) Show Excluding&#xD;&#xA;|e | |&#xD;&#xA;[ Cancel | ( Accept | i&#xD;&#xA;|&#xD;&#xA;) A&#xD;&#xA;| I = Activate Windows&#xD;&#xA;Go to Settings to activate Windows." Position="32, 80" ScreenshotGuid="1b9e1f91-98aa-440f-b20c-4114ef812d9b" ServerVersion="1">
+              <uc:CVCache DisplayName="Screen CV Highlight - 'Cash In (Main)" Id="f1faf349-3765-43a4-9ccd-9aea84c1ffd1" InformativeScreenshot="919a7a95e252c3cabf3ba39209cd5bd9" LogicalPosition="32, 80" OcrText="3 UiDemo : | = [3 pote 4&#xA;| 09/29/2020 nN UiPath otgs1AM [oo&#xA;n Transaction _ _ ——&#xA;2 © Deposit Deposit transaction&#xA;T QO Withdrawal Account #: 423605595 Transaction #: 430276 Ee&#xA;- QO Split Deposit&#xA;Configuration Cash In $400.00 | Cash Count ]&#xA;IM Use Cash Count&#xA;Alf |&#xA;@usepiece&#xA;count On Us Check $500.00&#xA;i O Use Amount i&#xA;O Use Both Not On Us Check | 6] al&#xA;- J Reverse Denomination i&#xA;e 7] Eliminate $2 i&#xA;vi Scale&#xA;) —(— Total deposit $900.00 =&#xA;. Graphical label Type | Amount’&#xA;; Enable training tip [cash [000 |&#xA;: Enable 2dditional icon credo _| i&#xA;Change window title |&#xA;[E) Show Excluding&#xA;|e | |&#xA;[ Cancel | ( Accept | i&#xA;|&#xA;) A&#xA;| I = Activate Windows&#xA;Go to Settings to activate Windows." Position="32, 80" ScreenshotGuid="1b9e1f91-98aa-440f-b20c-4114ef812d9b" ServerVersion="1">
                 <uc:CVCache.CvTables>
                   <x:Array Type="uc:CvTableInfo">
                     <uc:CvTableInfo>
@@ -394,6 +437,12 @@
       <p:CVScope.UseLocalServer>
         <InArgument x:TypeArguments="x:Boolean" />
       </p:CVScope.UseLocalServer>
+      <sap:WorkflowViewStateService.ViewState>
+        <scg:Dictionary x:TypeArguments="x:String, x:Object">
+          <x:Boolean x:Key="IsExpanded">False</x:Boolean>
+          <x:Boolean x:Key="IsPinned">False</x:Boolean>
+        </scg:Dictionary>
+      </sap:WorkflowViewStateService.ViewState>
     </p:CVScope>
   </Sequence>
 </Activity>

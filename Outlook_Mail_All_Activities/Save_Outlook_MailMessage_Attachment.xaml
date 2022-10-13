@@ -1,4 +1,4 @@
-<Activity mc:Ignorable="sap sap2010" x:Class="Save_Outlook_MailMessage" mva:VisualBasic.Settings="{x:Null}" sap:VirtualizedContainerService.HintSize="1095,1167" sap2010:WorkflowViewState.IdRef="Save_Outlook_MailMessage_1" xmlns="http://schemas.microsoft.com/netfx/2009/xaml/activities" xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006" xmlns:mva="clr-namespace:Microsoft.VisualBasic.Activities;assembly=System.Activities" xmlns:sap="http://schemas.microsoft.com/netfx/2009/xaml/activities/presentation" xmlns:sap2010="http://schemas.microsoft.com/netfx/2010/xaml/activities/presentation" xmlns:scg="clr-namespace:System.Collections.Generic;assembly=mscorlib" xmlns:snm="clr-namespace:System.Net.Mail;assembly=System" xmlns:ui="http://schemas.uipath.com/workflow/activities" xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml">
+<Activity mc:Ignorable="sap sap2010" x:Class="Save_Outlook_MailMessage" mva:VisualBasic.Settings="{x:Null}" sap:VirtualizedContainerService.HintSize="974,1167" sap2010:WorkflowViewState.IdRef="Save_Outlook_MailMessage_1" xmlns="http://schemas.microsoft.com/netfx/2009/xaml/activities" xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006" xmlns:mva="clr-namespace:Microsoft.VisualBasic.Activities;assembly=System.Activities" xmlns:sap="http://schemas.microsoft.com/netfx/2009/xaml/activities/presentation" xmlns:sap2010="http://schemas.microsoft.com/netfx/2010/xaml/activities/presentation" xmlns:scg="clr-namespace:System.Collections.Generic;assembly=mscorlib" xmlns:snm="clr-namespace:System.Net.Mail;assembly=System" xmlns:ui="http://schemas.uipath.com/workflow/activities" xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml">
   <TextExpression.NamespacesForImplementation>
     <scg:List x:TypeArguments="x:String" Capacity="30">
       <x:String>System.Activities</x:String>
@@ -64,10 +64,9 @@
       <AssemblyReference>System.ValueTuple</AssemblyReference>
       <AssemblyReference>System.ComponentModel.Composition</AssemblyReference>
       <AssemblyReference>UiPath.Excel</AssemblyReference>
-      <AssemblyReference>System.Runtime.WindowsRuntime</AssemblyReference>
     </scg:List>
   </TextExpression.ReferencesForImplementation>
-  <Sequence DisplayName="Save_Outlook_MailMessage" sap:VirtualizedContainerService.HintSize="741,1102" sap2010:WorkflowViewState.IdRef="Sequence_1">
+  <Sequence DisplayName="Save_Outlook_MailMessage" sap:VirtualizedContainerService.HintSize="604,1102" sap2010:WorkflowViewState.IdRef="Sequence_1">
     <Sequence.Variables>
       <Variable x:TypeArguments="scg:List(snm:MailMessage)" Name="mailOp" />
     </Sequence.Variables>
@@ -76,20 +75,20 @@
         <x:Boolean x:Key="IsExpanded">True</x:Boolean>
       </scg:Dictionary>
     </sap:WorkflowViewStateService.ViewState>
-    <ui:GetOutlookMailMessages Filter="{x:Null}" FilterByMessageIds="{x:Null}" TimeoutMS="{x:Null}" Account="vikic3110@outlook.com" DisplayName="Get Outlook Mail Messages" GetAttachements="False" sap:VirtualizedContainerService.HintSize="699,22" sap2010:WorkflowViewState.IdRef="GetOutlookMailMessages_1" MailFolder="Inbox" MarkAsRead="False" Messages="[mailOp]" OnlyUnreadMessages="False" OrderByDate="NewestFirst" Top="30" />
-    <ui:ForEach x:TypeArguments="snm:MailMessage" CurrentIndex="{x:Null}" DisplayName="For Each" sap:VirtualizedContainerService.HintSize="699,948" sap2010:WorkflowViewState.IdRef="ForEach`1_2" Values="[mailOp]">
+    <ui:GetOutlookMailMessages Filter="{x:Null}" FilterByMessageIds="{x:Null}" TimeoutMS="{x:Null}" Account="vikic3110@outlook.com" DisplayName="Get Outlook Mail Messages" GetAttachements="False" sap:VirtualizedContainerService.HintSize="562,22" sap2010:WorkflowViewState.IdRef="GetOutlookMailMessages_1" MailFolder="Inbox" MarkAsRead="False" Messages="[mailOp]" OnlyUnreadMessages="False" OrderByDate="NewestFirst" Top="30" />
+    <ui:ForEach x:TypeArguments="snm:MailMessage" CurrentIndex="{x:Null}" DisplayName="For Each" sap:VirtualizedContainerService.HintSize="562,948" sap2010:WorkflowViewState.IdRef="ForEach`1_2" Values="[mailOp]">
       <ui:ForEach.Body>
         <ActivityAction x:TypeArguments="snm:MailMessage">
           <ActivityAction.Argument>
             <DelegateInArgument x:TypeArguments="snm:MailMessage" Name="item" />
           </ActivityAction.Argument>
-          <Sequence sap:VirtualizedContainerService.HintSize="663,824" sap2010:WorkflowViewState.IdRef="Sequence_6">
+          <Sequence sap:VirtualizedContainerService.HintSize="526,824" sap2010:WorkflowViewState.IdRef="Sequence_6">
             <sap:WorkflowViewStateService.ViewState>
               <scg:Dictionary x:TypeArguments="x:String, x:Object">
                 <x:Boolean x:Key="IsExpanded">True</x:Boolean>
               </scg:Dictionary>
             </sap:WorkflowViewStateService.ViewState>
-            <If Condition="[item.Subject.Contains(&quot;uipath&quot;) OR item.Subject.Contains(&quot;Openings&quot;)]" sap:VirtualizedContainerService.HintSize="621,732" sap2010:WorkflowViewState.IdRef="If_1">
+            <If Condition="[item.Subject.Contains(&quot;uipath&quot;) OR item.Subject.Contains(&quot;Openings&quot;)]" sap:VirtualizedContainerService.HintSize="484,732" sap2010:WorkflowViewState.IdRef="If_1">
               <If.Then>
                 <Sequence sap:VirtualizedContainerService.HintSize="376,545" sap2010:WorkflowViewState.IdRef="Sequence_4">
                   <sap:WorkflowViewStateService.ViewState>
@@ -98,7 +97,7 @@
                     </scg:Dictionary>
                   </sap:WorkflowViewStateService.ViewState>
                   <ui:SaveOutlookMailMessage FileName="{x:Null}" DisplayName="Save Outlook Mail Message" Folder="C:\UI_PATH\Files\SaveMailAttachment" sap:VirtualizedContainerService.HintSize="334,324" sap2010:WorkflowViewState.IdRef="SaveOutlookMailMessage_1" MailMessage="[item]" ReplaceExisting="True" SaveAsType="OutlookMessageFormatUnicode" />
-                  <ui:SaveMailAttachments Attachments="{x:Null}" DisplayName="Save Attachments" FolderPath="C:\UI_PATH\Files\SaveMailAttachment" sap:VirtualizedContainerService.HintSize="334,89" sap2010:WorkflowViewState.IdRef="SaveMailAttachments_1" Message="[item]" OverwriteExisting="False" />
+                  <ui:SaveMailAttachments Attachments="{x:Null}" DisplayName="Save Attachments" ExcludeInlineAttachments="False" FolderPath="C:\UI_PATH\Files\SaveMailAttachment" sap:VirtualizedContainerService.HintSize="334,89" sap2010:WorkflowViewState.IdRef="SaveMailAttachments_1" Message="[item]" OverwriteExisting="True" />
                 </Sequence>
               </If.Then>
               <If.Else>

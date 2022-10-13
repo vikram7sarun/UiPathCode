@@ -8416,9 +8416,9 @@
     "restore": {
       "projectUniqueName": "ApprovedProcess",
       "projectName": "ApprovedProcess",
-      "projectPath": "C:\\Users\\ADMIN\\Documents\\UiPath\\ApprovedProcess\\.local",
+      "projectPath": "C:\\Users\\ADMIN\\Documents\\UiPath_AllCode\\UiPathCode\\ApprovedProcess\\.local",
       "packagesPath": "C:\\Users\\ADMIN\\.nuget\\packages\\",
-      "outputPath": "C:\\Users\\ADMIN\\Documents\\UiPath\\ApprovedProcess\\.local"
+      "outputPath": "C:\\Users\\ADMIN\\Documents\\UiPath_AllCode\\UiPathCode\\ApprovedProcess\\.local"
     },
     "frameworks": {
       "net461": {

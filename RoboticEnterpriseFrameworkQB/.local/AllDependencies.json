@@ -6367,9 +6367,9 @@
     "restore": {
       "projectUniqueName": "RoboticEnterpriseFrameworkQB",
       "projectName": "RoboticEnterpriseFrameworkQB",
-      "projectPath": "C:\\Users\\ADMIN\\Documents\\UiPath\\RoboticEnterpriseFrameworkQB\\.local",
+      "projectPath": "C:\\Users\\ADMIN\\Documents\\UiPath_AllCode\\UiPathCode\\RoboticEnterpriseFrameworkQB\\.local",
       "packagesPath": "C:\\Users\\ADMIN\\.nuget\\packages\\",
-      "outputPath": "C:\\Users\\ADMIN\\Documents\\UiPath\\RoboticEnterpriseFrameworkQB\\.local"
+      "outputPath": "C:\\Users\\ADMIN\\Documents\\UiPath_AllCode\\UiPathCode\\RoboticEnterpriseFrameworkQB\\.local"
     },
     "frameworks": {
       "net461": {

@@ -50,7 +50,7 @@
         "C:\\Users\\ADMIN\\.nuget\\packages\\microsoft.web.webview2\\1.0.705.50\\lib/net45/Microsoft.Web.WebView2.WinForms.dll",
         "C:\\Users\\ADMIN\\.nuget\\packages\\microsoft.web.webview2\\1.0.705.50\\lib/net45/Microsoft.Web.WebView2.Wpf.dll",
         "C:\\Users\\ADMIN\\.nuget\\packages\\mimekit\\2.10.0\\lib/net46/MimeKit.dll",
-        "C:\\Users\\ADMIN\\.nuget\\packages\\newtonsoft.json\\11.0.2\\lib/net45/Newtonsoft.Json.dll",
+        "C:\\Users\\ADMIN\\.nuget\\packages\\newtonsoft.json\\13.0.1\\lib/net45/Newtonsoft.Json.dll",
         "C:\\Users\\ADMIN\\.nuget\\packages\\nito.asyncex.context\\5.1.0\\lib/netstandard2.0/Nito.AsyncEx.Context.dll",
         "C:\\Users\\ADMIN\\.nuget\\packages\\nito.asyncex.coordination\\5.1.0\\lib/netstandard2.0/Nito.AsyncEx.Coordination.dll",
         "C:\\Users\\ADMIN\\.nuget\\packages\\nito.asyncex.interop.waithandles\\5.1.0\\lib/netstandard2.0/Nito.AsyncEx.Interop.WaitHandles.dll",
@@ -79,7 +79,7 @@
         "C:\\Users\\ADMIN\\.nuget\\packages\\uipath.mail.activities\\1.12.3\\lib/net461/UiPath.Mail.Activities.dll",
         "C:\\Users\\ADMIN\\.nuget\\packages\\uipath.mail.activities\\1.12.3\\lib/net461/UiPath.Mail.dll",
         "C:\\Users\\ADMIN\\.nuget\\packages\\uipath.mail.activities\\1.12.3\\lib/net461/UiPath.MainSessionServer.Shared.dll",
-        "C:\\Users\\ADMIN\\.nuget\\packages\\uipath.platform\\21.10.0\\lib/net461/UiPath.Platform.dll",
+        "C:\\Users\\ADMIN\\.nuget\\packages\\uipath.platform\\22.7.0-preview\\lib/net461/UiPath.Platform.dll",
         "C:\\Users\\ADMIN\\.nuget\\packages\\uipath.telemetry.client\\1.5.3\\lib/net461/TelemetryClient.dll"
       ],
       "Path": "C:\\Users\\ADMIN\\.nuget\\packages\\uipath.mail.activities\\1.12.3"
@@ -114,7 +114,7 @@
         "C:\\Users\\ADMIN\\.nuget\\packages\\microsoft.extensions.options\\3.1.6\\lib/netstandard2.0/Microsoft.Extensions.Options.dll",
         "C:\\Users\\ADMIN\\.nuget\\packages\\microsoft.extensions.primitives\\3.1.6\\lib/netstandard2.0/Microsoft.Extensions.Primitives.dll",
         "C:\\Users\\ADMIN\\.nuget\\packages\\microsoft.rest.clientruntime\\2.3.21\\lib/net461/Microsoft.Rest.ClientRuntime.dll",
-        "C:\\Users\\ADMIN\\.nuget\\packages\\newtonsoft.json\\11.0.2\\lib/net45/Newtonsoft.Json.dll",
+        "C:\\Users\\ADMIN\\.nuget\\packages\\newtonsoft.json\\13.0.1\\lib/net45/Newtonsoft.Json.dll",
         "C:\\Users\\ADMIN\\.nuget\\packages\\sharpziplib\\1.2.0\\lib/net45/ICSharpCode.SharpZipLib.dll",
         "C:\\Users\\ADMIN\\.nuget\\packages\\system.buffers\\4.5.1\\lib/net461/System.Buffers.dll",
         "C:\\Users\\ADMIN\\.nuget\\packages\\system.collections.immutable\\5.0.0\\lib/net461/System.Collections.Immutable.dll",
@@ -133,7 +133,7 @@
         "C:\\Users\\ADMIN\\.nuget\\packages\\system.threading.tasks.dataflow\\5.0.0\\lib/net461/System.Threading.Tasks.Dataflow.dll",
         "C:\\Users\\ADMIN\\.nuget\\packages\\system.threading.tasks.extensions\\4.5.4\\lib/net461/System.Threading.Tasks.Extensions.dll",
         "C:\\Users\\ADMIN\\.nuget\\packages\\system.valuetuple\\4.5.0\\lib/net461/System.ValueTuple.dll",
-        "C:\\Users\\ADMIN\\.nuget\\packages\\uipath.platform\\21.10.0\\lib/net461/UiPath.Platform.dll",
+        "C:\\Users\\ADMIN\\.nuget\\packages\\uipath.platform\\22.7.0-preview\\lib/net461/UiPath.Platform.dll",
         "C:\\Users\\ADMIN\\.nuget\\packages\\uipath.system.activities\\21.10.4\\lib/net461/UiPath.OrchestratorClient.dll",
         "C:\\Users\\ADMIN\\.nuget\\packages\\uipath.system.activities\\21.10.4\\lib/net461/UiPath.System.Activities.Design.dll",
         "C:\\Users\\ADMIN\\.nuget\\packages\\uipath.system.activities\\21.10.4\\lib/net461/UiPath.System.Activities.dll",
@@ -147,7 +147,7 @@
         "Version": "21.10.5"
       },
       "Assemblies": [
-        "C:\\Users\\ADMIN\\.nuget\\packages\\newtonsoft.json\\11.0.2\\lib/net45/Newtonsoft.Json.dll",
+        "C:\\Users\\ADMIN\\.nuget\\packages\\newtonsoft.json\\13.0.1\\lib/net45/Newtonsoft.Json.dll",
         "C:\\Users\\ADMIN\\.nuget\\packages\\system.io.abstractions\\3.0.10\\lib/net40/System.IO.Abstractions.dll",
         "C:\\Users\\ADMIN\\.nuget\\packages\\system.threading.tasks.dataflow\\5.0.0\\lib/net461/System.Threading.Tasks.Dataflow.dll",
         "C:\\Users\\ADMIN\\.nuget\\packages\\system.valuetuple\\4.5.0\\lib/net461/System.ValueTuple.dll",
@@ -158,7 +158,7 @@
         "C:\\Users\\ADMIN\\.nuget\\packages\\uipath.ocr.activities\\3.3.2\\lib/net461/UiPath.OCR.Activities.dll",
         "C:\\Users\\ADMIN\\.nuget\\packages\\uipath.ocr.activities\\3.3.2\\lib/net461/UiPath.OCR.Core.dll",
         "C:\\Users\\ADMIN\\.nuget\\packages\\uipath.ocr.contracts\\2.9.1\\lib/net461/UiPath.OCR.Contracts.dll",
-        "C:\\Users\\ADMIN\\.nuget\\packages\\uipath.platform\\21.10.0\\lib/net461/UiPath.Platform.dll",
+        "C:\\Users\\ADMIN\\.nuget\\packages\\uipath.platform\\22.7.0-preview\\lib/net461/UiPath.Platform.dll",
         "C:\\Users\\ADMIN\\.nuget\\packages\\uipath.telemetry.client\\1.5.3\\lib/net461/TelemetryClient.dll",
         "C:\\Users\\ADMIN\\.nuget\\packages\\uipath.uiautomation.activities\\21.10.5\\lib/net461/UiPath.CV.Activities.Design.dll",
         "C:\\Users\\ADMIN\\.nuget\\packages\\uipath.uiautomation.activities\\21.10.5\\lib/net461/UiPath.CV.Activities.dll",
@@ -178,10 +178,33 @@
         "C:\\Users\\ADMIN\\.nuget\\packages\\uipath.vision\\3.1.4\\lib/net461/UiPath.Vision.dll"
       ],
       "Path": "C:\\Users\\ADMIN\\.nuget\\packages\\uipath.uiautomation.activities\\21.10.5"
+    },
+    {
+      "Package": {
+        "Id": "UiPath.WebAPI.Activities",
+        "Version": "1.13.1"
+      },
+      "Assemblies": [
+        "C:\\Users\\ADMIN\\.nuget\\packages\\avalonedit\\6.0.1\\lib/net45/ICSharpCode.AvalonEdit.dll",
+        "C:\\Users\\ADMIN\\.nuget\\packages\\newtonsoft.json\\13.0.1\\lib/net45/Newtonsoft.Json.dll",
+        "C:\\Users\\ADMIN\\.nuget\\packages\\restsharp\\106.15.0\\lib/net452/RestSharp.dll",
+        "C:\\Users\\ADMIN\\.nuget\\packages\\system.io.abstractions\\3.0.10\\lib/net40/System.IO.Abstractions.dll",
+        "C:\\Users\\ADMIN\\.nuget\\packages\\system.valuetuple\\4.5.0\\lib/net461/System.ValueTuple.dll",
+        "C:\\Users\\ADMIN\\.nuget\\packages\\uipath.platform\\22.7.0-preview\\lib/net461/UiPath.Platform.dll",
+        "C:\\Users\\ADMIN\\.nuget\\packages\\uipath.webapi.activities\\1.13.1\\lib/net461/UiPath.Web.Activities.Design.dll",
+        "C:\\Users\\ADMIN\\.nuget\\packages\\uipath.webapi.activities\\1.13.1\\lib/net461/UiPath.Web.Activities.dll",
+        "C:\\Users\\ADMIN\\.nuget\\packages\\uipath.webapi.activities\\1.13.1\\lib/net461/UiPath.Web.dll"
+      ],
+      "Path": "C:\\Users\\ADMIN\\.nuget\\packages\\uipath.webapi.activities\\1.13.1"
     }
   ],
   "Conflicts": [],
   "ResolvedDependencies": {
+    "AvalonEdit": {
+      "Id": "AvalonEdit",
+      "Version": "6.0.1",
+      "Dependencies": []
+    },
     "ClosedXML": {
       "Id": "ClosedXML",
       "Version": "0.87.1",
@@ -721,7 +744,7 @@
     },
     "Newtonsoft.Json": {
       "Id": "Newtonsoft.Json",
-      "Version": "11.0.2",
+      "Version": "13.0.1",
       "Dependencies": []
     },
     "Nito.AsyncEx": {
@@ -846,6 +869,11 @@
     "Portable.BouncyCastle": {
       "Id": "Portable.BouncyCastle",
       "Version": "1.8.8",
+      "Dependencies": []
+    },
+    "RestSharp": {
+      "Id": "RestSharp",
+      "Version": "106.15.0",
       "Dependencies": []
     },
     "SharpZipLib": {
@@ -1195,7 +1223,7 @@
     },
     "UiPath.Platform": {
       "Id": "UiPath.Platform",
-      "Version": "21.10.0",
+      "Version": "22.7.0-preview",
       "Dependencies": [
         {
           "Item1": "Newtonsoft.Json",
@@ -1346,9 +1374,45 @@
           "Item2": "[2.9.1, )"
         }
       ]
+    },
+    "UiPath.WebAPI.Activities": {
+      "Id": "UiPath.WebAPI.Activities",
+      "Version": "1.13.1",
+      "Dependencies": [
+        {
+          "Item1": "AvalonEdit",
+          "Item2": "[6.0.1, )"
+        },
+        {
+          "Item1": "Microsoft.CSharp",
+          "Item2": "[4.7.0, )"
+        },
+        {
+          "Item1": "Newtonsoft.Json",
+          "Item2": "[13.0.1, )"
+        },
+        {
+          "Item1": "RestSharp",
+          "Item2": "[106.15.0, )"
+        },
+        {
+          "Item1": "UiPath.Platform",
+          "Item2": "[22.7.0-preview, )"
+        }
+      ]
     }
   },
   "AllPackages": [
+    {
+      "Package": {
+        "Id": "AvalonEdit",
+        "Version": "6.0.1"
+      },
+      "Assemblies": [
+        "C:\\Users\\ADMIN\\.nuget\\packages\\avalonedit\\6.0.1\\lib\\net45\\ICSharpCode.AvalonEdit.dll"
+      ],
+      "Path": "C:\\Users\\ADMIN\\.nuget\\packages\\avalonedit\\6.0.1"
+    },
     {
       "Package": {
         "Id": "ClosedXML",
@@ -1793,12 +1857,12 @@
     {
       "Package": {
         "Id": "Newtonsoft.Json",
-        "Version": "11.0.2"
+        "Version": "13.0.1"
       },
       "Assemblies": [
-        "C:\\Users\\ADMIN\\.nuget\\packages\\newtonsoft.json\\11.0.2\\lib\\net45\\Newtonsoft.Json.dll"
+        "C:\\Users\\ADMIN\\.nuget\\packages\\newtonsoft.json\\13.0.1\\lib\\net45\\Newtonsoft.Json.dll"
       ],
-      "Path": "C:\\Users\\ADMIN\\.nuget\\packages\\newtonsoft.json\\11.0.2"
+      "Path": "C:\\Users\\ADMIN\\.nuget\\packages\\newtonsoft.json\\13.0.1"
     },
     {
       "Package": {
@@ -1910,6 +1974,16 @@
         "C:\\Users\\ADMIN\\.nuget\\packages\\portable.bouncycastle\\1.8.8\\lib\\net40\\BouncyCastle.Crypto.dll"
       ],
       "Path": "C:\\Users\\ADMIN\\.nuget\\packages\\portable.bouncycastle\\1.8.8"
+    },
+    {
+      "Package": {
+        "Id": "RestSharp",
+        "Version": "106.15.0"
+      },
+      "Assemblies": [
+        "C:\\Users\\ADMIN\\.nuget\\packages\\restsharp\\106.15.0\\lib\\net452\\RestSharp.dll"
+      ],
+      "Path": "C:\\Users\\ADMIN\\.nuget\\packages\\restsharp\\106.15.0"
     },
     {
       "Package": {
@@ -2230,12 +2304,12 @@
     {
       "Package": {
         "Id": "UiPath.Platform",
-        "Version": "21.10.0"
+        "Version": "22.7.0-preview"
       },
       "Assemblies": [
-        "C:\\Users\\ADMIN\\.nuget\\packages\\uipath.platform\\21.10.0\\lib\\net461\\UiPath.Platform.dll"
+        "C:\\Users\\ADMIN\\.nuget\\packages\\uipath.platform\\22.7.0-preview\\lib\\net461\\UiPath.Platform.dll"
       ],
-      "Path": "C:\\Users\\ADMIN\\.nuget\\packages\\uipath.platform\\21.10.0"
+      "Path": "C:\\Users\\ADMIN\\.nuget\\packages\\uipath.platform\\22.7.0-preview"
     },
     {
       "Package": {
@@ -2292,6 +2366,18 @@
         "C:\\Users\\ADMIN\\.nuget\\packages\\uipath.vision\\3.1.4\\lib\\net461\\UiPath.Vision.dll"
       ],
       "Path": "C:\\Users\\ADMIN\\.nuget\\packages\\uipath.vision\\3.1.4"
+    },
+    {
+      "Package": {
+        "Id": "UiPath.WebAPI.Activities",
+        "Version": "1.13.1"
+      },
+      "Assemblies": [
+        "C:\\Users\\ADMIN\\.nuget\\packages\\uipath.webapi.activities\\1.13.1\\lib\\net461\\UiPath.Web.Activities.Design.dll",
+        "C:\\Users\\ADMIN\\.nuget\\packages\\uipath.webapi.activities\\1.13.1\\lib\\net461\\UiPath.Web.Activities.dll",
+        "C:\\Users\\ADMIN\\.nuget\\packages\\uipath.webapi.activities\\1.13.1\\lib\\net461\\UiPath.Web.dll"
+      ],
+      "Path": "C:\\Users\\ADMIN\\.nuget\\packages\\uipath.webapi.activities\\1.13.1"
     }
   ]
 }

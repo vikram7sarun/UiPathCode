@@ -8742,8 +8742,8 @@
   },
   "project": {
     "restore": {
-      "projectUniqueName": "API_Validation",
-      "projectName": "API_Validation",
+      "projectUniqueName": "API_Validation_UTD",
+      "projectName": "API_Validation_UTD",
       "projectPath": "C:\\Users\\ADMIN\\Documents\\UiPath_AllCode\\UiPathCode\\API_Validation\\.local",
       "packagesPath": "C:\\Users\\ADMIN\\.nuget\\packages\\",
       "outputPath": "C:\\Users\\ADMIN\\Documents\\UiPath_AllCode\\UiPathCode\\API_Validation\\.local"

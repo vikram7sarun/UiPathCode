@@ -1,7 +1,7 @@
 {
-  "name": "BlankProcess",
-  "description": "Blank Process",
-  "main": "Main.xaml",
+  "name": "AccountConfigureWithDifferentEnv",
+  "description": "AccountConfigureWithDifferentEnv",
+  "main": "AccountFetch.xaml",
   "dependencies": {
     "UiPath.Excel.Activities": "[2.10.4]",
     "UiPath.Mail.Activities": "[1.10.5]",
@@ -47,8 +47,8 @@
   "expressionLanguage": "VisualBasic",
   "entryPoints": [
     {
-      "filePath": "Main.xaml",
-      "uniqueId": "ea6c97d2-c0f1-480c-8bad-502bd3e7ff73",
+      "filePath": "AccountFetch.xaml",
+      "uniqueId": "1e5939f9-d29f-4c27-b5be-359070ae9fc3",
       "input": [],
       "output": []
     }
